@@ -1,7 +1,10 @@
 import os
 from flask import Flask
 
-from api.ecology.SchemaView import UserAPI
+BATH_PROJECT_PATH = "D:\Store\smartcommunity\\"
+BATH_GRAPH_PATH = "D:\Store\smartcommunity\Graph\\"
+BATH_SCHEMA_PATH = "D:\Store\smartcommunity\Schema\\"
+BATH_DATA_PATH = "D:\Store\smartcommunity\Data\\"
 
 
 def create_app(test_config=None):
