@@ -45,7 +45,7 @@ class FigureAPI(Resource):
                 edges.append({"source": str(edge.start_node.identity), "target": str(edge.end_node.identity)})
             except Exception as e:
                 print(e)
-        nodes = [node for node in nodes if node is not 0]
+        nodes = [node for node in nodes if node != 0]
         return {'nodes': nodes, 'edges': edges}
 
     def post(self):
