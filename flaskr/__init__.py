@@ -1,10 +1,10 @@
 import os
 from flask import Flask
 
-BATH_PROJECT_PATH = "D:\Store\smartcommunity\\"
-BATH_GRAPH_PATH = "D:\Store\smartcommunity\Graph\\"
-BATH_SCHEMA_PATH = "D:\Store\smartcommunity\Schema\\"
-BATH_DATA_PATH = "D:\Store\smartcommunity\Data\\"
+BATH_PROJECT_PATH = "./store/"
+BATH_GRAPH_PATH = "./store/Graph/"
+BATH_SCHEMA_PATH = "./store/Schema/"
+BATH_DATA_PATH = "./store/Data/"
 
 
 def create_app(test_config=None):

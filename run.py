@@ -30,4 +30,4 @@ if __name__ == "__main__":
     api.add_resource(ContentAPI, '/ecology/content')
     api.add_resource(ProjectAPI, '/ecology/project')
     api.add_resource(GeoMapAPI, '/ecology/geomap')
-    app.run(host='0.0.0.0', port=9000)
+    app.run(host='0.0.0.0', port=5000)

@@ -1,0 +1,14 @@
+[
+    {
+        "name": "test",
+        "database": "test"
+    },
+    {
+        "name": "长三角社区",
+        "database": "changsanjiao"
+    },
+    {
+        "name": "济宁社区",
+        "database": "jining"
+    }
+]

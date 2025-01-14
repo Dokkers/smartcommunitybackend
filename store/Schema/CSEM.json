@@ -1,0 +1,434 @@
+{
+    "version": 0,
+    "graphName": "CSEM",
+    "nodes": [
+        {
+            "id": "资源",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                },
+                {
+                    "name": "TYPE",
+                    "type": "STRING"
+                },
+                {
+                    "name": "DATETIME",
+                    "type": "STRING"
+                },
+                {
+                    "name": "LON",
+                    "type": "INT"
+                },
+                {
+                    "name": "LAT",
+                    "type": "INT"
+                }
+            ]
+        },
+        {
+            "id": "服务",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                },
+                {
+                    "name": "TYPE",
+                    "type": "STRING"
+                },
+                {
+                    "name": "DATETIME",
+                    "type": "INT"
+                },
+                {
+                    "name": "LON",
+                    "type": "INT"
+                },
+                {
+                    "name": "LAT",
+                    "type": "INT"
+                }
+            ]
+        },
+        {
+            "id": "组织",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                },
+                {
+                    "name": "TYPE",
+                    "type": "STRING"
+                },
+                {
+                    "name": "DATETIME",
+                    "type": "INT"
+                },
+                {
+                    "name": "LON",
+                    "type": "INT"
+                },
+                {
+                    "name": "LAT",
+                    "type": "INT"
+                }
+            ]
+        },
+        {
+            "id": "流程",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                },
+                {
+                    "name": "TYPE",
+                    "type": "STRING"
+                },
+                {
+                    "name": "DATETIME",
+                    "type": "STRING"
+                }
+            ]
+        },
+        {
+            "id": "活动",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                },
+                {
+                    "name": "TYPE",
+                    "type": "STRING"
+                },
+                {
+                    "name": "DATETIME",
+                    "type": "INT"
+                }
+            ]
+        },
+        {
+            "id": "居民",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                },
+                {
+                    "name": "DATETIME",
+                    "type": "INT"
+                }
+            ]
+        },
+        {
+            "id": "价值",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                },
+                {
+                    "name": "VALUE",
+                    "type": "INT"
+                }
+            ]
+        },
+        {
+            "id": "价值链",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                }
+            ]
+        },
+        {
+            "id": "家庭",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                },
+                {
+                    "name": "HHSIZE",
+                    "type": "INT"
+                },
+                {
+                    "name": "INCOME",
+                    "type": "INT"
+                }
+            ]
+        },
+        {
+            "id": "价值交换关系",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                },
+                {
+                    "name": "",
+                    "type": ""
+                }
+            ]
+        }
+    ],
+    "edges": [
+        {
+            "id": "服务-服务:合作",
+            "label": "合作",
+            "source": "服务",
+            "target": "服务",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                }
+            ]
+        },
+        {
+            "id": "服务-服务:竞争",
+            "label": "竞争",
+            "source": "服务",
+            "target": "服务",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                }
+            ]
+        },
+        {
+            "id": "服务-资源:占有",
+            "label": "占有",
+            "source": "服务",
+            "target": "资源",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                }
+            ]
+        },
+        {
+            "id": "组织-服务:拥有",
+            "label": "拥有",
+            "source": "组织",
+            "target": "服务",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                }
+            ]
+        },
+        {
+            "id": "流程-服务:属于",
+            "label": "属于",
+            "source": "流程",
+            "target": "服务",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                }
+            ]
+        },
+        {
+            "id": "活动-流程:属于",
+            "label": "属于",
+            "source": "活动",
+            "target": "流程",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                }
+            ]
+        },
+        {
+            "id": "居民-组织:属于",
+            "label": "属于",
+            "source": "居民",
+            "target": "组织",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                }
+            ]
+        },
+        {
+            "id": "服务-资源:使用",
+            "label": "使用",
+            "source": "服务",
+            "target": "资源",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                }
+            ]
+        },
+        {
+            "id": "服务-价值:产生",
+            "label": "产生",
+            "source": "服务",
+            "target": "价值",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                }
+            ]
+        },
+        {
+            "id": "价值-价值链:属于",
+            "label": "属于",
+            "source": "价值",
+            "target": "价值链",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                }
+            ]
+        },
+        {
+            "id": "居民-服务:消费",
+            "label": "消费",
+            "source": "居民",
+            "target": "服务",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                }
+            ]
+        },
+        {
+            "id": "服务-服务:属于",
+            "label": "属于",
+            "source": "服务",
+            "target": "服务",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                }
+            ]
+        },
+        {
+            "id": "组织-组织:合作",
+            "label": "合作",
+            "source": "组织",
+            "target": "组织",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                }
+            ]
+        },
+        {
+            "id": "组织-组织:竞争",
+            "label": "竞争",
+            "source": "组织",
+            "target": "组织",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                }
+            ]
+        },
+        {
+            "id": "组织-组织:属于",
+            "label": "属于",
+            "source": "组织",
+            "target": "组织",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                }
+            ]
+        },
+        {
+            "id": "居民-家庭:属于",
+            "label": "属于",
+            "source": "居民",
+            "target": "家庭",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                }
+            ]
+        },
+        {
+            "id": "组织-服务:提供",
+            "label": "提供",
+            "source": "组织",
+            "target": "服务",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                }
+            ]
+        },
+        {
+            "id": "组织-资源:使用",
+            "label": "使用",
+            "source": "组织",
+            "target": "资源",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                }
+            ]
+        },
+        {
+            "id": "居民-活动:参与",
+            "label": "参与",
+            "source": "居民",
+            "target": "活动",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                }
+            ]
+        },
+        {
+            "id": "价值-价值交换关系:属于",
+            "label": "属于",
+            "source": "价值",
+            "target": "价值交换关系",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                }
+            ]
+        },
+        {
+            "id": "价值交换关系-价值链:属于",
+            "label": "属于",
+            "source": "价值交换关系",
+            "target": "价值链",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                }
+            ]
+        }
+    ]
+}

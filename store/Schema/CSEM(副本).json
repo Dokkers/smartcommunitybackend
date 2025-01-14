@@ -1,0 +1,294 @@
+{
+    "version": 0,
+    "graphName": "demo",
+    "nodes": [
+        {
+            "primaryId": "社区",
+            "property": [
+                {
+                    "name": "ID",
+                    "type": "STRING"
+                },
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                }
+            ]
+        },
+        {
+            "primaryId": "利益相关者",
+            "property": [
+                {
+                    "name": "ID",
+                    "type": "STRING"
+                },
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                }
+            ]
+        },
+        {
+            "primaryId": "服务",
+            "property": [
+                {
+                    "name": "ID",
+                    "type": "STRING"
+                },
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                }
+            ]
+        },
+        {
+            "primaryId": "资源",
+            "property": [
+                {
+                    "name": "ID",
+                    "type": "STRING"
+                },
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                }
+            ]
+        },
+        {
+            "primaryId": "组织",
+            "property": [
+                {
+                    "name": "ID",
+                    "type": "STRING"
+                },
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                }
+            ]
+        },
+        {
+            "primaryId": "居民",
+            "property": [
+                {
+                    "name": "ID",
+                    "type": "STRING"
+                },
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                }
+            ]
+        },
+        {
+            "primaryId": "家庭",
+            "property": [
+                {
+                    "name": "ID",
+                    "type": "STRING"
+                },
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                }
+            ]
+        },
+        {
+            "primaryId": "流程",
+            "property": [
+                {
+                    "name": "ID",
+                    "type": "STRING"
+                },
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                }
+            ]
+        },
+        {
+            "primaryId": "活动",
+            "property": [
+                {
+                    "name": "ID",
+                    "type": "STRING"
+                },
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                }
+            ]
+        },
+        {
+            "primaryId": "基础设施",
+            "property": [
+                {
+                    "name": "ID",
+                    "type": "STRING"
+                },
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                }
+            ]
+        }
+    ],
+    "edges": [
+        {
+            "primaryId": "edge0",
+            "property": [
+                {
+                    "name": "source(服务)",
+                    "type": "STRING"
+                },
+                {
+                    "name": "target(社区)",
+                    "type": "STRING"
+                }
+            ]
+        },
+        {
+            "primaryId": "edge1",
+            "property": [
+                {
+                    "name": "source(资源)",
+                    "type": "STRING"
+                },
+                {
+                    "name": "target(社区)",
+                    "type": "STRING"
+                }
+            ]
+        },
+        {
+            "primaryId": "edge2",
+            "property": [
+                {
+                    "name": "source(利益相关者)",
+                    "type": "STRING"
+                },
+                {
+                    "name": "target(社区)",
+                    "type": "STRING"
+                }
+            ]
+        },
+        {
+            "primaryId": "edge3",
+            "property": [
+                {
+                    "name": "source(家庭)",
+                    "type": "STRING"
+                },
+                {
+                    "name": "target(利益相关者)",
+                    "type": "STRING"
+                }
+            ]
+        },
+        {
+            "primaryId": "edge4",
+            "property": [
+                {
+                    "name": "source(组织)",
+                    "type": "STRING"
+                },
+                {
+                    "name": "target(利益相关者)",
+                    "type": "STRING"
+                }
+            ]
+        },
+        {
+            "primaryId": "edge5",
+            "property": [
+                {
+                    "name": "source(居民)",
+                    "type": "STRING"
+                },
+                {
+                    "name": "target(利益相关者)",
+                    "type": "STRING"
+                }
+            ]
+        },
+        {
+            "primaryId": "edge6",
+            "property": [
+                {
+                    "name": "source(居民)",
+                    "type": "STRING"
+                },
+                {
+                    "name": "target(家庭)",
+                    "type": "STRING"
+                }
+            ]
+        },
+        {
+            "primaryId": "edge7",
+            "property": [
+                {
+                    "name": "source(服务)",
+                    "type": "STRING"
+                },
+                {
+                    "name": "target(利益相关者)",
+                    "type": "STRING"
+                }
+            ]
+        },
+        {
+            "primaryId": "edge8",
+            "property": [
+                {
+                    "name": "source(服务)",
+                    "type": "STRING"
+                },
+                {
+                    "name": "target(资源)",
+                    "type": "STRING"
+                }
+            ]
+        },
+        {
+            "primaryId": "edge9",
+            "property": [
+                {
+                    "name": "source(流程)",
+                    "type": "STRING"
+                },
+                {
+                    "name": "target(服务)",
+                    "type": "STRING"
+                }
+            ]
+        },
+        {
+            "primaryId": "edge10",
+            "property": [
+                {
+                    "name": "source(活动)",
+                    "type": "STRING"
+                },
+                {
+                    "name": "target(流程)",
+                    "type": "STRING"
+                }
+            ]
+        },
+        {
+            "primaryId": "edge11",
+            "property": [
+                {
+                    "name": "source(基础设施)",
+                    "type": "STRING"
+                },
+                {
+                    "name": "target(资源)",
+                    "type": "STRING"
+                }
+            ]
+        }
+    ]
+}

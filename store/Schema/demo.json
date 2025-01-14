@@ -1,0 +1,2446 @@
+[
+  {
+    "position": {
+      "x": 890,
+      "y": 280
+    },
+    "size": {
+      "width": 150,
+      "height": 24
+    },
+    "attrs": {
+      "text": {
+        "text": "Feature"
+      },
+      "rect": {
+        "fill": "#63656A"
+      }
+    },
+    "visible": true,
+    "shape": "er-rect",
+    "ports": {
+      "groups": {
+        "list": {
+          "markup": [
+            {
+              "tagName": "rect",
+              "selector": "portBody"
+            },
+            {
+              "tagName": "text",
+              "selector": "portNameLabel"
+            },
+            {
+              "tagName": "text",
+              "selector": "portTypeLabel"
+            }
+          ],
+          "attrs": {
+            "portBody": {
+              "width": 150,
+              "height": 24,
+              "strokeWidth": 1,
+              "stroke": "#5F95FF",
+              "fill": "#EFF4FF",
+              "magnet": true
+            },
+            "portNameLabel": {
+              "ref": "portBody",
+              "refX": 6,
+              "refY": 6,
+              "fontSize": 10
+            },
+            "portTypeLabel": {
+              "ref": "portBody",
+              "refX": 95,
+              "refY": 6,
+              "fontSize": 10
+            }
+          },
+          "position": "erPortPosition"
+        }
+      },
+      "items": [
+        {
+          "group": "list",
+          "attrs": {
+            "portNameLabel": {
+              "text": "Name"
+            },
+            "portTypeLabel": {
+              "text": "STRING"
+            }
+          },
+          "id": "cc849356-b098-47c9-9ddd-d38e8a8e3dea"
+        }
+      ]
+    },
+    "id": "Feature",
+    "data": [
+      {
+        "name": "Name",
+        "type": "STRING"
+      }
+    ],
+    "zIndex": 1
+  },
+  {
+    "position": {
+      "x": 500,
+      "y": 150
+    },
+    "size": {
+      "width": 150,
+      "height": 24
+    },
+    "attrs": {
+      "text": {
+        "text": "Stackholder "
+      },
+      "rect": {
+        "fill": "#116CFF"
+      }
+    },
+    "visible": true,
+    "shape": "er-rect",
+    "ports": {
+      "groups": {
+        "list": {
+          "markup": [
+            {
+              "tagName": "rect",
+              "selector": "portBody"
+            },
+            {
+              "tagName": "text",
+              "selector": "portNameLabel"
+            },
+            {
+              "tagName": "text",
+              "selector": "portTypeLabel"
+            }
+          ],
+          "attrs": {
+            "portBody": {
+              "width": 150,
+              "height": 24,
+              "strokeWidth": 1,
+              "stroke": "#5F95FF",
+              "fill": "#EFF4FF",
+              "magnet": true
+            },
+            "portNameLabel": {
+              "ref": "portBody",
+              "refX": 6,
+              "refY": 6,
+              "fontSize": 10
+            },
+            "portTypeLabel": {
+              "ref": "portBody",
+              "refX": 95,
+              "refY": 6,
+              "fontSize": 10
+            }
+          },
+          "position": "erPortPosition"
+        }
+      },
+      "items": [
+        {
+          "group": "list",
+          "attrs": {
+            "portNameLabel": {
+              "text": "Name"
+            },
+            "portTypeLabel": {
+              "text": "STRING"
+            }
+          },
+          "id": "5277fd88-4af6-400d-ab23-439ced55bda2"
+        },
+        {
+          "group": "list",
+          "attrs": {
+            "portNameLabel": {
+              "text": "Role"
+            },
+            "portTypeLabel": {
+              "text": "STRING"
+            }
+          },
+          "id": "01405c29-8b68-4f80-8730-437519f9eabb"
+        }
+      ]
+    },
+    "id": "Stackholder ",
+    "data": [
+      {
+        "name": "Name",
+        "type": "STRING"
+      },
+      {
+        "name": "Role",
+        "type": "STRING"
+      }
+    ],
+    "zIndex": 2
+  },
+  {
+    "position": {
+      "x": 500,
+      "y": 410
+    },
+    "size": {
+      "width": 150,
+      "height": 24
+    },
+    "attrs": {
+      "text": {
+        "text": "Community "
+      },
+      "rect": {
+        "fill": "#002BE9"
+      }
+    },
+    "visible": true,
+    "shape": "er-rect",
+    "ports": {
+      "groups": {
+        "list": {
+          "markup": [
+            {
+              "tagName": "rect",
+              "selector": "portBody"
+            },
+            {
+              "tagName": "text",
+              "selector": "portNameLabel"
+            },
+            {
+              "tagName": "text",
+              "selector": "portTypeLabel"
+            }
+          ],
+          "attrs": {
+            "portBody": {
+              "width": 150,
+              "height": 24,
+              "strokeWidth": 1,
+              "stroke": "#5F95FF",
+              "fill": "#EFF4FF",
+              "magnet": true
+            },
+            "portNameLabel": {
+              "ref": "portBody",
+              "refX": 6,
+              "refY": 6,
+              "fontSize": 10
+            },
+            "portTypeLabel": {
+              "ref": "portBody",
+              "refX": 95,
+              "refY": 6,
+              "fontSize": 10
+            }
+          },
+          "position": "erPortPosition"
+        }
+      },
+      "items": [
+        {
+          "group": "list",
+          "attrs": {
+            "portNameLabel": {
+              "text": "Population structure "
+            },
+            "portTypeLabel": {
+              "text": "STRING"
+            }
+          },
+          "id": "fe6603cb-7021-4fe7-905e-9b65d496675e"
+        },
+        {
+          "group": "list",
+          "attrs": {
+            "portNameLabel": {
+              "text": "Population size"
+            },
+            "portTypeLabel": {
+              "text": "NUMBER"
+            }
+          },
+          "id": "9666f0d1-ba66-4e55-b6b2-77843c67b137"
+        }
+      ]
+    },
+    "id": "Community ",
+    "data": [
+      {
+        "name": "Population structure ",
+        "type": "STRING"
+      },
+      {
+        "name": "Population size",
+        "type": "NUMBER"
+      }
+    ],
+    "zIndex": 3
+  },
+  {
+    "position": {
+      "x": 710,
+      "y": 410
+    },
+    "size": {
+      "width": 150,
+      "height": 24
+    },
+    "attrs": {
+      "text": {
+        "text": "Village "
+      },
+      "rect": {
+        "fill": "#002BE9"
+      }
+    },
+    "visible": true,
+    "shape": "er-rect",
+    "ports": {
+      "groups": {
+        "list": {
+          "markup": [
+            {
+              "tagName": "rect",
+              "selector": "portBody"
+            },
+            {
+              "tagName": "text",
+              "selector": "portNameLabel"
+            },
+            {
+              "tagName": "text",
+              "selector": "portTypeLabel"
+            }
+          ],
+          "attrs": {
+            "portBody": {
+              "width": 150,
+              "height": 24,
+              "strokeWidth": 1,
+              "stroke": "#5F95FF",
+              "fill": "#EFF4FF",
+              "magnet": true
+            },
+            "portNameLabel": {
+              "ref": "portBody",
+              "refX": 6,
+              "refY": 6,
+              "fontSize": 10
+            },
+            "portTypeLabel": {
+              "ref": "portBody",
+              "refX": 95,
+              "refY": 6,
+              "fontSize": 10
+            }
+          },
+          "position": "erPortPosition"
+        }
+      },
+      "items": [
+        {
+          "group": "list",
+          "attrs": {
+            "portNameLabel": {
+              "text": "Information "
+            },
+            "portTypeLabel": {
+              "text": "STRING"
+            }
+          },
+          "id": "a8eab607-f01f-4aec-80ec-ecddc9a71a47"
+        },
+        {
+          "group": "list",
+          "attrs": {
+            "portNameLabel": {
+              "text": "Type"
+            },
+            "portTypeLabel": {
+              "text": "ENUM"
+            }
+          },
+          "id": "507c169b-0dae-4cc3-b737-ec59d87dba3a"
+        }
+      ]
+    },
+    "id": "Village ",
+    "data": [
+      {
+        "name": "Information ",
+        "type": "STRING"
+      },
+      {
+        "name": "Type",
+        "type": "ENUM"
+      }
+    ],
+    "zIndex": 4
+  },
+  {
+    "position": {
+      "x": 1130,
+      "y": 280
+    },
+    "size": {
+      "width": 150,
+      "height": 24
+    },
+    "attrs": {
+      "text": {
+        "text": "Space-Time"
+      },
+      "rect": {
+        "fill": "#5B5C63"
+      }
+    },
+    "visible": true,
+    "shape": "er-rect",
+    "ports": {
+      "groups": {
+        "list": {
+          "markup": [
+            {
+              "tagName": "rect",
+              "selector": "portBody"
+            },
+            {
+              "tagName": "text",
+              "selector": "portNameLabel"
+            },
+            {
+              "tagName": "text",
+              "selector": "portTypeLabel"
+            }
+          ],
+          "attrs": {
+            "portBody": {
+              "width": 150,
+              "height": 24,
+              "strokeWidth": 1,
+              "stroke": "#5F95FF",
+              "fill": "#EFF4FF",
+              "magnet": true
+            },
+            "portNameLabel": {
+              "ref": "portBody",
+              "refX": 6,
+              "refY": 6,
+              "fontSize": 10
+            },
+            "portTypeLabel": {
+              "ref": "portBody",
+              "refX": 95,
+              "refY": 6,
+              "fontSize": 10
+            }
+          },
+          "position": "erPortPosition"
+        }
+      },
+      "items": [
+        {
+          "group": "list",
+          "attrs": {
+            "portNameLabel": {
+              "text": "Sccale"
+            },
+            "portTypeLabel": {
+              "text": "NUMBER"
+            }
+          },
+          "id": "5135e84f-c4ac-4902-863a-29ecf0087c74"
+        },
+        {
+          "group": "list",
+          "attrs": {
+            "portNameLabel": {
+              "text": "View"
+            },
+            "portTypeLabel": {
+              "text": "STRING"
+            }
+          },
+          "id": "e1979850-c0b5-438f-9716-ab65ae4bc37b"
+        }
+      ]
+    },
+    "id": "Space-Time",
+    "data": [
+      {
+        "name": "Sccale",
+        "type": "NUMBER"
+      },
+      {
+        "name": "View",
+        "type": "STRING"
+      }
+    ],
+    "zIndex": 5
+  },
+  {
+    "position": {
+      "x": 1130,
+      "y": 360
+    },
+    "size": {
+      "width": 150,
+      "height": 24
+    },
+    "attrs": {
+      "text": {
+        "text": "Capacity "
+      },
+      "rect": {
+        "fill": "#5B5C63"
+      }
+    },
+    "visible": true,
+    "shape": "er-rect",
+    "ports": {
+      "groups": {
+        "list": {
+          "markup": [
+            {
+              "tagName": "rect",
+              "selector": "portBody"
+            },
+            {
+              "tagName": "text",
+              "selector": "portNameLabel"
+            },
+            {
+              "tagName": "text",
+              "selector": "portTypeLabel"
+            }
+          ],
+          "attrs": {
+            "portBody": {
+              "width": 150,
+              "height": 24,
+              "strokeWidth": 1,
+              "stroke": "#5F95FF",
+              "fill": "#EFF4FF",
+              "magnet": true
+            },
+            "portNameLabel": {
+              "ref": "portBody",
+              "refX": 6,
+              "refY": 6,
+              "fontSize": 10
+            },
+            "portTypeLabel": {
+              "ref": "portBody",
+              "refX": 95,
+              "refY": 6,
+              "fontSize": 10
+            }
+          },
+          "position": "erPortPosition"
+        }
+      },
+      "items": [
+        {
+          "group": "list",
+          "attrs": {
+            "portNameLabel": {
+              "text": "Name"
+            },
+            "portTypeLabel": {
+              "text": "STRING"
+            }
+          },
+          "id": "aa12e721-c158-44bb-9334-c57072de8b6b"
+        },
+        {
+          "group": "list",
+          "attrs": {
+            "portNameLabel": {
+              "text": "Unit"
+            },
+            "portTypeLabel": {
+              "text": "NUMBER"
+            }
+          },
+          "id": "3b8c7f87-4a8d-47ff-ad00-c77299e05073"
+        }
+      ]
+    },
+    "id": "Capacity ",
+    "data": [
+      {
+        "name": "Name",
+        "type": "STRING"
+      },
+      {
+        "name": "Unit",
+        "type": "NUMBER"
+      }
+    ],
+    "zIndex": 6
+  },
+  {
+    "position": {
+      "x": 720,
+      "y": 150
+    },
+    "size": {
+      "width": 150,
+      "height": 24
+    },
+    "attrs": {
+      "text": {
+        "text": "Resource"
+      },
+      "rect": {
+        "fill": "#CC2508"
+      }
+    },
+    "visible": true,
+    "shape": "er-rect",
+    "ports": {
+      "groups": {
+        "list": {
+          "markup": [
+            {
+              "tagName": "rect",
+              "selector": "portBody"
+            },
+            {
+              "tagName": "text",
+              "selector": "portNameLabel"
+            },
+            {
+              "tagName": "text",
+              "selector": "portTypeLabel"
+            }
+          ],
+          "attrs": {
+            "portBody": {
+              "width": 150,
+              "height": 24,
+              "strokeWidth": 1,
+              "stroke": "#5F95FF",
+              "fill": "#EFF4FF",
+              "magnet": true
+            },
+            "portNameLabel": {
+              "ref": "portBody",
+              "refX": 6,
+              "refY": 6,
+              "fontSize": 10
+            },
+            "portTypeLabel": {
+              "ref": "portBody",
+              "refX": 95,
+              "refY": 6,
+              "fontSize": 10
+            }
+          },
+          "position": "erPortPosition"
+        }
+      },
+      "items": [
+        {
+          "group": "list",
+          "attrs": {
+            "portNameLabel": {
+              "text": "Ownership"
+            },
+            "portTypeLabel": {
+              "text": "STRING"
+            }
+          },
+          "id": "5f9396d3-a288-4a52-8bc6-c9b9d66ccc45"
+        },
+        {
+          "group": "list",
+          "attrs": {
+            "portNameLabel": {
+              "text": "Category"
+            },
+            "portTypeLabel": {
+              "text": "ENUM"
+            }
+          },
+          "id": "24430505-90f0-4375-a56f-11a91c1a8fd7"
+        }
+      ]
+    },
+    "id": "Resource",
+    "data": [
+      {
+        "name": "Ownership",
+        "type": "STRING"
+      },
+      {
+        "name": "Category",
+        "type": "ENUM"
+      }
+    ],
+    "zIndex": 7
+  },
+  {
+    "position": {
+      "x": 950,
+      "y": 150
+    },
+    "size": {
+      "width": 150,
+      "height": 24
+    },
+    "attrs": {
+      "text": {
+        "text": "Infrastructure"
+      },
+      "rect": {
+        "fill": "#CC2508"
+      }
+    },
+    "visible": true,
+    "shape": "er-rect",
+    "ports": {
+      "groups": {
+        "list": {
+          "markup": [
+            {
+              "tagName": "rect",
+              "selector": "portBody"
+            },
+            {
+              "tagName": "text",
+              "selector": "portNameLabel"
+            },
+            {
+              "tagName": "text",
+              "selector": "portTypeLabel"
+            }
+          ],
+          "attrs": {
+            "portBody": {
+              "width": 150,
+              "height": 24,
+              "strokeWidth": 1,
+              "stroke": "#5F95FF",
+              "fill": "#EFF4FF",
+              "magnet": true
+            },
+            "portNameLabel": {
+              "ref": "portBody",
+              "refX": 6,
+              "refY": 6,
+              "fontSize": 10
+            },
+            "portTypeLabel": {
+              "ref": "portBody",
+              "refX": 95,
+              "refY": 6,
+              "fontSize": 10
+            }
+          },
+          "position": "erPortPosition"
+        }
+      },
+      "items": [
+        {
+          "group": "list",
+          "attrs": {
+            "portNameLabel": {
+              "text": "Name"
+            },
+            "portTypeLabel": {
+              "text": "STRING"
+            }
+          },
+          "id": "7b7cb32b-ad75-4395-a602-7e1c170e65b6"
+        },
+        {
+          "group": "list",
+          "attrs": {
+            "portNameLabel": {
+              "text": "Category"
+            },
+            "portTypeLabel": {
+              "text": "ENUM"
+            }
+          },
+          "id": "b8c6d124-5a54-4e50-876a-2ac8d88d73bd"
+        }
+      ]
+    },
+    "id": "Infrastructure",
+    "data": [
+      {
+        "name": "Name",
+        "type": "STRING"
+      },
+      {
+        "name": "Category",
+        "type": "ENUM"
+      }
+    ],
+    "zIndex": 8
+  },
+  {
+    "position": {
+      "x": 500,
+      "y": -50
+    },
+    "size": {
+      "width": 150,
+      "height": 24
+    },
+    "attrs": {
+      "text": {
+        "text": "Resident"
+      },
+      "rect": {
+        "fill": "#53E008"
+      }
+    },
+    "visible": true,
+    "shape": "er-rect",
+    "ports": {
+      "groups": {
+        "list": {
+          "markup": [
+            {
+              "tagName": "rect",
+              "selector": "portBody"
+            },
+            {
+              "tagName": "text",
+              "selector": "portNameLabel"
+            },
+            {
+              "tagName": "text",
+              "selector": "portTypeLabel"
+            }
+          ],
+          "attrs": {
+            "portBody": {
+              "width": 150,
+              "height": 24,
+              "strokeWidth": 1,
+              "stroke": "#5F95FF",
+              "fill": "#EFF4FF",
+              "magnet": true
+            },
+            "portNameLabel": {
+              "ref": "portBody",
+              "refX": 6,
+              "refY": 6,
+              "fontSize": 10
+            },
+            "portTypeLabel": {
+              "ref": "portBody",
+              "refX": 95,
+              "refY": 6,
+              "fontSize": 10
+            }
+          },
+          "position": "erPortPosition"
+        }
+      },
+      "items": [
+        {
+          "group": "list",
+          "attrs": {
+            "portNameLabel": {
+              "text": "Age"
+            },
+            "portTypeLabel": {
+              "text": "NUMBER"
+            }
+          },
+          "id": "86978ad3-ea9c-4a7d-b62c-2359387b534a"
+        },
+        {
+          "group": "list",
+          "attrs": {
+            "portNameLabel": {
+              "text": "Occupation"
+            },
+            "portTypeLabel": {
+              "text": "STRING"
+            }
+          },
+          "id": "ec79e7a8-d4b8-4289-8d24-b5579d2090c4"
+        }
+      ]
+    },
+    "id": "Resident",
+    "data": [
+      {
+        "name": "Age",
+        "type": "NUMBER"
+      },
+      {
+        "name": "Occupation",
+        "type": "STRING"
+      }
+    ],
+    "zIndex": 9
+  },
+  {
+    "position": {
+      "x": 500,
+      "y": -150
+    },
+    "size": {
+      "width": 150,
+      "height": 24
+    },
+    "attrs": {
+      "text": {
+        "text": "Family"
+      },
+      "rect": {
+        "fill": "#53E008"
+      }
+    },
+    "visible": true,
+    "shape": "er-rect",
+    "ports": {
+      "groups": {
+        "list": {
+          "markup": [
+            {
+              "tagName": "rect",
+              "selector": "portBody"
+            },
+            {
+              "tagName": "text",
+              "selector": "portNameLabel"
+            },
+            {
+              "tagName": "text",
+              "selector": "portTypeLabel"
+            }
+          ],
+          "attrs": {
+            "portBody": {
+              "width": 150,
+              "height": 24,
+              "strokeWidth": 1,
+              "stroke": "#5F95FF",
+              "fill": "#EFF4FF",
+              "magnet": true
+            },
+            "portNameLabel": {
+              "ref": "portBody",
+              "refX": 6,
+              "refY": 6,
+              "fontSize": 10
+            },
+            "portTypeLabel": {
+              "ref": "portBody",
+              "refX": 95,
+              "refY": 6,
+              "fontSize": 10
+            }
+          },
+          "position": "erPortPosition"
+        }
+      },
+      "items": [
+        {
+          "group": "list",
+          "attrs": {
+            "portNameLabel": {
+              "text": "Member"
+            },
+            "portTypeLabel": {
+              "text": "SET"
+            }
+          },
+          "id": "2febd7c0-6a0f-4868-9ba4-0a2d96631c40"
+        },
+        {
+          "group": "list",
+          "attrs": {
+            "portNameLabel": {
+              "text": "Property"
+            },
+            "portTypeLabel": {
+              "text": "NUMBER"
+            }
+          },
+          "id": "0180005d-76c7-4dd4-bd25-d11ae319ed47"
+        }
+      ]
+    },
+    "id": "Family",
+    "data": [
+      {
+        "name": "Member",
+        "type": "SET"
+      },
+      {
+        "name": "Property",
+        "type": "NUMBER"
+      }
+    ],
+    "zIndex": 10
+  },
+  {
+    "position": {
+      "x": 280,
+      "y": -50
+    },
+    "size": {
+      "width": 150,
+      "height": 24
+    },
+    "attrs": {
+      "text": {
+        "text": "Activities"
+      },
+      "rect": {
+        "fill": "#53E008"
+      }
+    },
+    "visible": true,
+    "shape": "er-rect",
+    "ports": {
+      "groups": {
+        "list": {
+          "markup": [
+            {
+              "tagName": "rect",
+              "selector": "portBody"
+            },
+            {
+              "tagName": "text",
+              "selector": "portNameLabel"
+            },
+            {
+              "tagName": "text",
+              "selector": "portTypeLabel"
+            }
+          ],
+          "attrs": {
+            "portBody": {
+              "width": 150,
+              "height": 24,
+              "strokeWidth": 1,
+              "stroke": "#5F95FF",
+              "fill": "#EFF4FF",
+              "magnet": true
+            },
+            "portNameLabel": {
+              "ref": "portBody",
+              "refX": 6,
+              "refY": 6,
+              "fontSize": 10
+            },
+            "portTypeLabel": {
+              "ref": "portBody",
+              "refX": 95,
+              "refY": 6,
+              "fontSize": 10
+            }
+          },
+          "position": "erPortPosition"
+        }
+      },
+      "items": [
+        {
+          "group": "list",
+          "attrs": {
+            "portNameLabel": {
+              "text": "Behavior"
+            },
+            "portTypeLabel": {
+              "text": "STRING"
+            }
+          },
+          "id": "a0d3bb5a-f2e9-44da-a1dd-89bd48c54682"
+        },
+        {
+          "group": "list",
+          "attrs": {
+            "portNameLabel": {
+              "text": "Space-time attribute"
+            },
+            "portTypeLabel": {
+              "text": "TUPLE"
+            }
+          },
+          "id": "310c7f66-d1e0-4a7a-be8f-cada50457476"
+        }
+      ]
+    },
+    "id": "Activities",
+    "data": [
+      {
+        "name": "Behavior",
+        "type": "STRING"
+      },
+      {
+        "name": "Space-time attribute",
+        "type": "TUPLE"
+      }
+    ],
+    "zIndex": 11
+  },
+  {
+    "position": {
+      "x": 90,
+      "y": 290
+    },
+    "size": {
+      "width": 150,
+      "height": 24
+    },
+    "attrs": {
+      "text": {
+        "text": "Value Exchange Relationship R"
+      },
+      "rect": {
+        "fill": "#E59603"
+      }
+    },
+    "visible": true,
+    "shape": "er-rect",
+    "ports": {
+      "groups": {
+        "list": {
+          "markup": [
+            {
+              "tagName": "rect",
+              "selector": "portBody"
+            },
+            {
+              "tagName": "text",
+              "selector": "portNameLabel"
+            },
+            {
+              "tagName": "text",
+              "selector": "portTypeLabel"
+            }
+          ],
+          "attrs": {
+            "portBody": {
+              "width": 150,
+              "height": 24,
+              "strokeWidth": 1,
+              "stroke": "#5F95FF",
+              "fill": "#EFF4FF",
+              "magnet": true
+            },
+            "portNameLabel": {
+              "ref": "portBody",
+              "refX": 6,
+              "refY": 6,
+              "fontSize": 10
+            },
+            "portTypeLabel": {
+              "ref": "portBody",
+              "refX": 95,
+              "refY": 6,
+              "fontSize": 10
+            }
+          },
+          "position": "erPortPosition"
+        }
+      },
+      "items": [
+        {
+          "group": "list",
+          "attrs": {
+            "portNameLabel": {
+              "text": "lation ordered pair"
+            },
+            "portTypeLabel": {
+              "text": "TUPLE"
+            }
+          },
+          "id": "e62b23ee-28a8-4b2b-b068-d1b5c843e173"
+        },
+        {
+          "group": "list",
+          "attrs": {
+            "portNameLabel": {
+              "text": "value"
+            },
+            "portTypeLabel": {
+              "text": "STRING"
+            }
+          },
+          "id": "4431c6df-df33-4372-ac23-ae4492d6881b"
+        }
+      ]
+    },
+    "id": "Value Exchange Relationship R",
+    "data": [
+      {
+        "name": "lation ordered pair",
+        "type": "TUPLE"
+      },
+      {
+        "name": "value",
+        "type": "STRING"
+      }
+    ],
+    "zIndex": 12
+  },
+  {
+    "position": {
+      "x": -140,
+      "y": 290
+    },
+    "size": {
+      "width": 150,
+      "height": 24
+    },
+    "attrs": {
+      "text": {
+        "text": "Value Chain/Network"
+      },
+      "rect": {
+        "fill": "#E59603"
+      }
+    },
+    "visible": true,
+    "shape": "er-rect",
+    "ports": {
+      "groups": {
+        "list": {
+          "markup": [
+            {
+              "tagName": "rect",
+              "selector": "portBody"
+            },
+            {
+              "tagName": "text",
+              "selector": "portNameLabel"
+            },
+            {
+              "tagName": "text",
+              "selector": "portTypeLabel"
+            }
+          ],
+          "attrs": {
+            "portBody": {
+              "width": 150,
+              "height": 24,
+              "strokeWidth": 1,
+              "stroke": "#5F95FF",
+              "fill": "#EFF4FF",
+              "magnet": true
+            },
+            "portNameLabel": {
+              "ref": "portBody",
+              "refX": 6,
+              "refY": 6,
+              "fontSize": 10
+            },
+            "portTypeLabel": {
+              "ref": "portBody",
+              "refX": 95,
+              "refY": 6,
+              "fontSize": 10
+            }
+          },
+          "position": "erPortPosition"
+        }
+      },
+      "items": [
+        {
+          "group": "list",
+          "attrs": {
+            "portNameLabel": {
+              "text": "Value exchange relationship"
+            },
+            "portTypeLabel": {
+              "text": "TUPLE"
+            }
+          },
+          "id": "c33d81cd-2d60-4394-a557-20fca00b39c6"
+        },
+        {
+          "group": "list",
+          "attrs": {
+            "portNameLabel": {
+              "text": "value"
+            },
+            "portTypeLabel": {
+              "text": "STRING"
+            }
+          },
+          "id": "7954b90f-580b-4554-b7a6-ec45f88a6160"
+        }
+      ]
+    },
+    "id": "Value Chain/Network",
+    "data": [
+      {
+        "name": "Value exchange relationship",
+        "type": "TUPLE"
+      },
+      {
+        "name": "value",
+        "type": "STRING"
+      }
+    ],
+    "zIndex": 13
+  },
+  {
+    "position": {
+      "x": 280,
+      "y": 50
+    },
+    "size": {
+      "width": 150,
+      "height": 24
+    },
+    "attrs": {
+      "text": {
+        "text": "Process"
+      },
+      "rect": {
+        "fill": "#7033D8"
+      }
+    },
+    "visible": true,
+    "shape": "er-rect",
+    "ports": {
+      "groups": {
+        "list": {
+          "markup": [
+            {
+              "tagName": "rect",
+              "selector": "portBody"
+            },
+            {
+              "tagName": "text",
+              "selector": "portNameLabel"
+            },
+            {
+              "tagName": "text",
+              "selector": "portTypeLabel"
+            }
+          ],
+          "attrs": {
+            "portBody": {
+              "width": 150,
+              "height": 24,
+              "strokeWidth": 1,
+              "stroke": "#5F95FF",
+              "fill": "#EFF4FF",
+              "magnet": true
+            },
+            "portNameLabel": {
+              "ref": "portBody",
+              "refX": 6,
+              "refY": 6,
+              "fontSize": 10
+            },
+            "portTypeLabel": {
+              "ref": "portBody",
+              "refX": 95,
+              "refY": 6,
+              "fontSize": 10
+            }
+          },
+          "position": "erPortPosition"
+        }
+      },
+      "items": [
+        {
+          "group": "list",
+          "attrs": {
+            "portNameLabel": {
+              "text": "ID"
+            },
+            "portTypeLabel": {
+              "text": "NUMBER"
+            }
+          },
+          "id": "2c1b29eb-0ab6-4445-9e1d-87707f756b07"
+        },
+        {
+          "group": "list",
+          "attrs": {
+            "portNameLabel": {
+              "text": "Name"
+            },
+            "portTypeLabel": {
+              "text": "STRING"
+            }
+          },
+          "id": "8e997d3d-4c59-44aa-8944-0ebafd68f156"
+        }
+      ]
+    },
+    "id": "Process",
+    "data": [
+      {
+        "name": "ID",
+        "type": "NUMBER"
+      },
+      {
+        "name": "Name",
+        "type": "STRING"
+      }
+    ],
+    "zIndex": 14
+  },
+  {
+    "position": {
+      "x": 1590,
+      "y": -30
+    },
+    "size": {
+      "width": 150,
+      "height": 24
+    },
+    "attrs": {
+      "rect": {
+        "fill": "#7033D8"
+      }
+    },
+    "visible": true,
+    "shape": "er-rect",
+    "ports": {
+      "groups": {
+        "list": {
+          "markup": [
+            {
+              "tagName": "rect",
+              "selector": "portBody"
+            },
+            {
+              "tagName": "text",
+              "selector": "portNameLabel"
+            },
+            {
+              "tagName": "text",
+              "selector": "portTypeLabel"
+            }
+          ],
+          "attrs": {
+            "portBody": {
+              "width": 150,
+              "height": 24,
+              "strokeWidth": 1,
+              "stroke": "#5F95FF",
+              "fill": "#EFF4FF",
+              "magnet": true
+            },
+            "portNameLabel": {
+              "ref": "portBody",
+              "refX": 6,
+              "refY": 6,
+              "fontSize": 10
+            },
+            "portTypeLabel": {
+              "ref": "portBody",
+              "refX": 95,
+              "refY": 6,
+              "fontSize": 10
+            }
+          },
+          "position": "erPortPosition"
+        }
+      },
+      "items": [
+        {
+          "group": "list",
+          "attrs": {
+            "portNameLabel": {
+              "text": "Services"
+            },
+            "portTypeLabel": {
+              "text": "NUMBER"
+            }
+          },
+          "id": "0cb4b1b3-b98d-4756-a685-e68613406ede"
+        },
+        {
+          "group": "list",
+          "attrs": {
+            "portNameLabel": {
+              "text": "Participants"
+            },
+            "portTypeLabel": {
+              "text": "TUPLE"
+            }
+          },
+          "id": "063b43f2-4a78-4eb1-90bf-b1627be763c6"
+        },
+        {
+          "group": "list",
+          "attrs": {
+            "portNameLabel": {
+              "text": "Quality"
+            },
+            "portTypeLabel": {
+              "text": "NUMBER"
+            }
+          },
+          "id": "32d744f0-7cab-44b3-857c-db12e439b770"
+        }
+      ]
+    },
+    "id": "",
+    "data": [
+      {
+        "name": "Services",
+        "type": "NUMBER"
+      },
+      {
+        "name": "Participants",
+        "type": "TUPLE"
+      },
+      {
+        "name": "Quality",
+        "type": "NUMBER"
+      }
+    ],
+    "zIndex": 15
+  },
+  {
+    "position": {
+      "x": 280,
+      "y": 150
+    },
+    "size": {
+      "width": 150,
+      "height": 24
+    },
+    "attrs": {
+      "text": {
+        "text": "Services"
+      },
+      "rect": {
+        "fill": "#7033D8"
+      }
+    },
+    "visible": true,
+    "shape": "er-rect",
+    "ports": {
+      "groups": {
+        "list": {
+          "markup": [
+            {
+              "tagName": "rect",
+              "selector": "portBody"
+            },
+            {
+              "tagName": "text",
+              "selector": "portNameLabel"
+            },
+            {
+              "tagName": "text",
+              "selector": "portTypeLabel"
+            }
+          ],
+          "attrs": {
+            "portBody": {
+              "width": 150,
+              "height": 24,
+              "strokeWidth": 1,
+              "stroke": "#5F95FF",
+              "fill": "#EFF4FF",
+              "magnet": true
+            },
+            "portNameLabel": {
+              "ref": "portBody",
+              "refX": 6,
+              "refY": 6,
+              "fontSize": 10
+            },
+            "portTypeLabel": {
+              "ref": "portBody",
+              "refX": 95,
+              "refY": 6,
+              "fontSize": 10
+            }
+          },
+          "position": "erPortPosition"
+        }
+      },
+      "items": [
+        {
+          "group": "list",
+          "attrs": {
+            "portNameLabel": {
+              "text": "Name"
+            },
+            "portTypeLabel": {
+              "text": "NUMBER"
+            }
+          },
+          "id": "a08d1f62-3645-409b-a418-1bb31df03d5b"
+        },
+        {
+          "group": "list",
+          "attrs": {
+            "portNameLabel": {
+              "text": "Participants"
+            },
+            "portTypeLabel": {
+              "text": "TUPLE"
+            }
+          },
+          "id": "27ecc654-e2f3-4b3c-bc6a-9e6f7e1f3db7"
+        },
+        {
+          "group": "list",
+          "attrs": {
+            "portNameLabel": {
+              "text": "Quality"
+            },
+            "portTypeLabel": {
+              "text": "NUMBER"
+            }
+          },
+          "id": "f6dc7d74-0cd8-4da0-aa46-2c3016b3bddc"
+        }
+      ]
+    },
+    "id": "Services",
+    "data": [
+      {
+        "name": "Name",
+        "type": "NUMBER"
+      },
+      {
+        "name": "Participants",
+        "type": "TUPLE"
+      },
+      {
+        "name": "Quality",
+        "type": "NUMBER"
+      }
+    ],
+    "zIndex": 16
+  },
+  {
+    "position": {
+      "x": 90,
+      "y": 150
+    },
+    "size": {
+      "width": 150,
+      "height": 24
+    },
+    "attrs": {
+      "text": {
+        "text": "Service Value"
+      },
+      "rect": {
+        "fill": "#DAB532"
+      }
+    },
+    "visible": true,
+    "shape": "er-rect",
+    "ports": {
+      "groups": {
+        "list": {
+          "markup": [
+            {
+              "tagName": "rect",
+              "selector": "portBody"
+            },
+            {
+              "tagName": "text",
+              "selector": "portNameLabel"
+            },
+            {
+              "tagName": "text",
+              "selector": "portTypeLabel"
+            }
+          ],
+          "attrs": {
+            "portBody": {
+              "width": 150,
+              "height": 24,
+              "strokeWidth": 1,
+              "stroke": "#5F95FF",
+              "fill": "#EFF4FF",
+              "magnet": true
+            },
+            "portNameLabel": {
+              "ref": "portBody",
+              "refX": 6,
+              "refY": 6,
+              "fontSize": 10
+            },
+            "portTypeLabel": {
+              "ref": "portBody",
+              "refX": 95,
+              "refY": 6,
+              "fontSize": 10
+            }
+          },
+          "position": "erPortPosition"
+        }
+      },
+      "items": [
+        {
+          "group": "list",
+          "attrs": {
+            "portNameLabel": {
+              "text": "Name"
+            },
+            "portTypeLabel": {
+              "text": "NUMBER"
+            }
+          },
+          "id": "5adb7b9c-90ef-4077-abec-9bc6e4c56f00"
+        },
+        {
+          "group": "list",
+          "attrs": {
+            "portNameLabel": {
+              "text": "Participants"
+            },
+            "portTypeLabel": {
+              "text": "TUPLE"
+            }
+          },
+          "id": "1b16235d-d6ee-49ae-a275-ab264be787ea"
+        },
+        {
+          "group": "list",
+          "attrs": {
+            "portNameLabel": {
+              "text": "Value"
+            },
+            "portTypeLabel": {
+              "text": "STRING"
+            }
+          },
+          "id": "82bcd8e8-0441-4263-a5be-32f6bc770f3d"
+        }
+      ]
+    },
+    "id": "Service Value",
+    "data": [
+      {
+        "name": "Name",
+        "type": "NUMBER"
+      },
+      {
+        "name": "Participants",
+        "type": "TUPLE"
+      },
+      {
+        "name": "Value",
+        "type": "STRING"
+      }
+    ],
+    "zIndex": 17
+  },
+  {
+    "shape": "edge",
+    "id": "baa4e378-ae71-461e-aadd-8c63c561036f",
+    "labels": "",
+    "data": [
+      {
+        "name": "Name",
+        "type": "NUMBER"
+      },
+      {
+        "name": "Participants",
+        "type": "TUPLE"
+      },
+      {
+        "name": "Value",
+        "type": "STRING"
+      }
+    ],
+    "router": {
+      "name": "er"
+    },
+    "source": {
+      "cell": "Service Value",
+      "port": "82bcd8e8-0441-4263-a5be-32f6bc770f3d"
+    },
+    "target": {
+      "cell": "Value Exchange Relationship R"
+    },
+    "zIndex": 18
+  },
+  {
+    "shape": "edge",
+    "id": "d97a842a-4397-4415-b9aa-df873b08861f",
+    "labels": "",
+    "data": [
+      {
+        "name": "Name",
+        "type": "NUMBER"
+      },
+      {
+        "name": "Participants",
+        "type": "TUPLE"
+      },
+      {
+        "name": "Value",
+        "type": "STRING"
+      }
+    ],
+    "router": {
+      "name": "er"
+    },
+    "source": {
+      "cell": "Value Exchange Relationship R",
+      "port": "4431c6df-df33-4372-ac23-ae4492d6881b"
+    },
+    "target": {
+      "cell": "Value Chain/Network",
+      "port": "7954b90f-580b-4554-b7a6-ec45f88a6160"
+    },
+    "zIndex": 19
+  },
+  {
+    "shape": "edge",
+    "id": "6d33849c-1ebc-4c07-b116-a370ff0c1d07",
+    "labels": "",
+    "data": [
+      {
+        "name": "Name",
+        "type": "NUMBER"
+      },
+      {
+        "name": "Participants",
+        "type": "TUPLE"
+      },
+      {
+        "name": "Value",
+        "type": "STRING"
+      }
+    ],
+    "router": {
+      "name": "er"
+    },
+    "source": {
+      "cell": "Service Value",
+      "port": "1b16235d-d6ee-49ae-a275-ab264be787ea"
+    },
+    "target": {
+      "cell": "Value Chain/Network"
+    },
+    "zIndex": 20
+  },
+  {
+    "shape": "edge",
+    "id": "b0583b85-92d0-49da-93c6-a2870bfaa1cf",
+    "labels": "",
+    "data": [
+      {
+        "name": "Name",
+        "type": "NUMBER"
+      },
+      {
+        "name": "Participants",
+        "type": "TUPLE"
+      },
+      {
+        "name": "Value",
+        "type": "STRING"
+      }
+    ],
+    "router": {
+      "name": "er"
+    },
+    "source": {
+      "cell": "Activities",
+      "port": "310c7f66-d1e0-4a7a-be8f-cada50457476"
+    },
+    "target": {
+      "cell": "Process"
+    },
+    "zIndex": 21
+  },
+  {
+    "shape": "edge",
+    "id": "0d409cd4-9e27-456f-8f90-b950c5d95741",
+    "labels": "",
+    "data": [
+      {
+        "name": "Name",
+        "type": "NUMBER"
+      },
+      {
+        "name": "Participants",
+        "type": "TUPLE"
+      },
+      {
+        "name": "Value",
+        "type": "STRING"
+      }
+    ],
+    "router": {
+      "name": "er"
+    },
+    "source": {
+      "cell": "Process",
+      "port": "8e997d3d-4c59-44aa-8944-0ebafd68f156"
+    },
+    "target": {
+      "cell": "Services"
+    },
+    "zIndex": 22
+  },
+  {
+    "shape": "edge",
+    "id": "27950a68-93fb-438f-b78f-1729ca133803",
+    "labels": "",
+    "data": [
+      {
+        "name": "Name",
+        "type": "NUMBER"
+      },
+      {
+        "name": "Participants",
+        "type": "TUPLE"
+      },
+      {
+        "name": "Value",
+        "type": "STRING"
+      }
+    ],
+    "router": {
+      "name": "er"
+    },
+    "source": {
+      "cell": "Services",
+      "port": "27ecc654-e2f3-4b3c-bc6a-9e6f7e1f3db7"
+    },
+    "target": {
+      "cell": "Service Value",
+      "port": "1b16235d-d6ee-49ae-a275-ab264be787ea"
+    },
+    "zIndex": 23
+  },
+  {
+    "shape": "edge",
+    "id": "12993b4a-bd34-4121-a12a-84f9e2985600",
+    "source": {
+      "cell": "Resident",
+      "port": "86978ad3-ea9c-4a7d-b62c-2359387b534a"
+    },
+    "target": {
+      "cell": "Activities",
+      "port": "a0d3bb5a-f2e9-44da-a1dd-89bd48c54682"
+    },
+    "zIndex": 24
+  },
+  {
+    "shape": "edge",
+    "id": "b78a4c34-5c1c-44cc-a921-8d98af52d103",
+    "source": {
+      "cell": "Resident"
+    },
+    "target": {
+      "cell": "Family",
+      "port": "0180005d-76c7-4dd4-bd25-d11ae319ed47"
+    },
+    "zIndex": 25
+  },
+  {
+    "position": {
+      "x": 730,
+      "y": -10
+    },
+    "size": {
+      "width": 150,
+      "height": 24
+    },
+    "attrs": {
+      "text": {
+        "text": "Organization"
+      },
+      "rect": {
+        "fill": "#3772F1"
+      }
+    },
+    "visible": true,
+    "shape": "er-rect",
+    "ports": {
+      "groups": {
+        "list": {
+          "markup": [
+            {
+              "tagName": "rect",
+              "selector": "portBody"
+            },
+            {
+              "tagName": "text",
+              "selector": "portNameLabel"
+            },
+            {
+              "tagName": "text",
+              "selector": "portTypeLabel"
+            }
+          ],
+          "attrs": {
+            "portBody": {
+              "width": 150,
+              "height": 24,
+              "strokeWidth": 1,
+              "stroke": "#5F95FF",
+              "fill": "#EFF4FF",
+              "magnet": true
+            },
+            "portNameLabel": {
+              "ref": "portBody",
+              "refX": 6,
+              "refY": 6,
+              "fontSize": 10
+            },
+            "portTypeLabel": {
+              "ref": "portBody",
+              "refX": 95,
+              "refY": 6,
+              "fontSize": 10
+            }
+          },
+          "position": "erPortPosition"
+        }
+      },
+      "items": [
+        {
+          "group": "list",
+          "attrs": {
+            "portNameLabel": {
+              "text": "Credit"
+            },
+            "portTypeLabel": {
+              "text": "STRING"
+            }
+          },
+          "id": "98ba6443-0f36-4cc9-ab1b-002db284ef47"
+        },
+        {
+          "group": "list",
+          "attrs": {
+            "portNameLabel": {
+              "text": "representative"
+            },
+            "portTypeLabel": {
+              "text": "STRING"
+            }
+          },
+          "id": "7a7476bc-9d2f-4919-8709-77bef1f0b6d7"
+        },
+        {
+          "group": "list",
+          "attrs": {
+            "portNameLabel": {
+              "text": "Type"
+            },
+            "portTypeLabel": {
+              "text": "ENUM"
+            }
+          },
+          "id": "f9b4ce33-e407-4f0a-9e60-6b83bf558d45"
+        }
+      ]
+    },
+    "id": "Organization",
+    "data": [
+      {
+        "name": "Credit",
+        "type": "STRING"
+      },
+      {
+        "name": "representative",
+        "type": "STRING"
+      },
+      {
+        "name": "Type",
+        "type": "ENUM"
+      }
+    ],
+    "zIndex": 26
+  },
+  {
+    "shape": "edge",
+    "id": "5fcf78f1-f5ad-41d6-8768-d337f85bcb2c",
+    "source": {
+      "cell": "Stackholder "
+    },
+    "target": {
+      "cell": "Process",
+      "port": "8e997d3d-4c59-44aa-8944-0ebafd68f156"
+    },
+    "zIndex": 27
+  },
+  {
+    "shape": "edge",
+    "id": "9daa418c-7796-4bd7-b3a4-ac09af0c8f79",
+    "source": {
+      "cell": "Resident",
+      "port": "ec79e7a8-d4b8-4289-8d24-b5579d2090c4"
+    },
+    "target": {
+      "cell": "Stackholder "
+    },
+    "zIndex": 28
+  },
+  {
+    "shape": "edge",
+    "id": "ca693738-8077-4e31-b756-ebac446cd934",
+    "source": {
+      "cell": "Organization",
+      "port": "f9b4ce33-e407-4f0a-9e60-6b83bf558d45"
+    },
+    "target": {
+      "cell": "Stackholder "
+    },
+    "zIndex": 29
+  },
+  {
+    "shape": "edge",
+    "id": "7c402e3d-59b3-4a8d-a1b2-9a347695be18",
+    "source": {
+      "cell": "Stackholder ",
+      "port": "5277fd88-4af6-400d-ab23-439ced55bda2"
+    },
+    "target": {
+      "cell": "Services",
+      "port": "a08d1f62-3645-409b-a418-1bb31df03d5b"
+    },
+    "zIndex": 30
+  },
+  {
+    "shape": "edge",
+    "id": "d265b63f-542f-4d12-a532-f7e60e313b77",
+    "source": {
+      "cell": "Stackholder ",
+      "port": "5277fd88-4af6-400d-ab23-439ced55bda2"
+    },
+    "target": {
+      "cell": "Resource",
+      "port": "5f9396d3-a288-4a52-8bc6-c9b9d66ccc45"
+    },
+    "zIndex": 31
+  },
+  {
+    "shape": "edge",
+    "id": "a814c0f2-fb7c-4a94-9bd1-9e4d65ef49e9",
+    "source": {
+      "cell": "Infrastructure",
+      "port": "7b7cb32b-ad75-4395-a602-7e1c170e65b6"
+    },
+    "target": {
+      "cell": "Resource",
+      "port": "5f9396d3-a288-4a52-8bc6-c9b9d66ccc45"
+    },
+    "zIndex": 32
+  },
+  {
+    "shape": "edge",
+    "id": "3a1c1653-827b-4100-944d-81c200a49372",
+    "source": {
+      "cell": "Space-Time"
+    },
+    "target": {
+      "cell": "Feature"
+    },
+    "zIndex": 33
+  },
+  {
+    "shape": "edge",
+    "id": "0fd6ce11-0e3a-47fa-935f-603ad88afda4",
+    "source": {
+      "cell": "Capacity ",
+      "port": "aa12e721-c158-44bb-9334-c57072de8b6b"
+    },
+    "target": {
+      "cell": "Feature",
+      "port": "cc849356-b098-47c9-9ddd-d38e8a8e3dea"
+    },
+    "zIndex": 34
+  },
+  {
+    "position": {
+      "x": 280,
+      "y": 410
+    },
+    "size": {
+      "width": 150,
+      "height": 24
+    },
+    "attrs": {
+      "text": {
+        "text": "Evolutionary event"
+      },
+      "rect": {
+        "fill": "#3772F1"
+      }
+    },
+    "visible": true,
+    "shape": "er-rect",
+    "ports": {
+      "groups": {
+        "list": {
+          "markup": [
+            {
+              "tagName": "rect",
+              "selector": "portBody"
+            },
+            {
+              "tagName": "text",
+              "selector": "portNameLabel"
+            },
+            {
+              "tagName": "text",
+              "selector": "portTypeLabel"
+            }
+          ],
+          "attrs": {
+            "portBody": {
+              "width": 150,
+              "height": 24,
+              "strokeWidth": 1,
+              "stroke": "#5F95FF",
+              "fill": "#EFF4FF",
+              "magnet": true
+            },
+            "portNameLabel": {
+              "ref": "portBody",
+              "refX": 6,
+              "refY": 6,
+              "fontSize": 10
+            },
+            "portTypeLabel": {
+              "ref": "portBody",
+              "refX": 95,
+              "refY": 6,
+              "fontSize": 10
+            }
+          },
+          "position": "erPortPosition"
+        }
+      },
+      "items": [
+        {
+          "group": "list",
+          "attrs": {
+            "portNameLabel": {
+              "text": "Name"
+            },
+            "portTypeLabel": {
+              "text": "STRING"
+            }
+          },
+          "id": "cd2f7a80-ea96-419e-ac95-b304cde3a3e6"
+        },
+        {
+          "group": "list",
+          "attrs": {
+            "portNameLabel": {
+              "text": "Category"
+            },
+            "portTypeLabel": {
+              "text": "ENUM"
+            }
+          },
+          "id": "7815bfe4-cf85-4375-88b3-bcc4690b50bf"
+        },
+        {
+          "group": "list",
+          "attrs": {
+            "portNameLabel": {
+              "text": "Type"
+            },
+            "portTypeLabel": {
+              "text": "ENUM"
+            }
+          },
+          "id": "d92fc9a6-7d99-42bd-8244-83243eae823e"
+        }
+      ]
+    },
+    "id": "Evolutionary event",
+    "data": [
+      {
+        "name": "Name",
+        "type": "STRING"
+      },
+      {
+        "name": "Category",
+        "type": "ENUM"
+      },
+      {
+        "name": "Type",
+        "type": "ENUM"
+      }
+    ],
+    "zIndex": 35
+  },
+  {
+    "shape": "edge",
+    "id": "785a8ada-6cc7-4e15-b051-edf154d68d09",
+    "source": {
+      "cell": "Feature"
+    },
+    "target": {
+      "cell": "Resource",
+      "port": "24430505-90f0-4375-a56f-11a91c1a8fd7"
+    },
+    "zIndex": 36
+  },
+  {
+    "shape": "edge",
+    "id": "bb882795-b046-4253-b41e-13b6514a5028",
+    "source": {
+      "cell": "Feature"
+    },
+    "target": {
+      "cell": "Stackholder ",
+      "port": "01405c29-8b68-4f80-8730-437519f9eabb"
+    },
+    "zIndex": 37
+  },
+  {
+    "shape": "edge",
+    "id": "e7d11d97-fb9b-4fcd-bcbe-b996298e82a3",
+    "source": {
+      "cell": "Feature",
+      "port": "cc849356-b098-47c9-9ddd-d38e8a8e3dea"
+    },
+    "target": {
+      "cell": "Services",
+      "port": "27ecc654-e2f3-4b3c-bc6a-9e6f7e1f3db7"
+    },
+    "zIndex": 38
+  },
+  {
+    "shape": "edge",
+    "id": "a0f5241c-79c2-451a-9bcb-d966a756734f",
+    "source": {
+      "cell": "Village ",
+      "port": "a8eab607-f01f-4aec-80ec-ecddc9a71a47"
+    },
+    "target": {
+      "cell": "Community ",
+      "port": "fe6603cb-7021-4fe7-905e-9b65d496675e"
+    },
+    "zIndex": 39
+  },
+  {
+    "shape": "edge",
+    "id": "c4905408-fe09-46bc-8341-7addb26b6669",
+    "source": {
+      "cell": "Resource",
+      "port": "24430505-90f0-4375-a56f-11a91c1a8fd7"
+    },
+    "target": {
+      "cell": "Village "
+    },
+    "zIndex": 40
+  },
+  {
+    "shape": "edge",
+    "id": "86302928-8023-4d42-ae95-fbdb16eb92ab",
+    "source": {
+      "cell": "Stackholder ",
+      "port": "01405c29-8b68-4f80-8730-437519f9eabb"
+    },
+    "target": {
+      "cell": "Village "
+    },
+    "zIndex": 41
+  },
+  {
+    "shape": "edge",
+    "id": "78a6885d-1f40-4669-8968-be38319d9cb5",
+    "source": {
+      "cell": "Services",
+      "port": "f6dc7d74-0cd8-4da0-aa46-2c3016b3bddc"
+    },
+    "target": {
+      "cell": "Village "
+    },
+    "zIndex": 42
+  },
+  {
+    "shape": "edge",
+    "id": "b8d9e7d5-30f3-4863-ad2b-9b63072ab581",
+    "source": {
+      "cell": "Stackholder ",
+      "port": "01405c29-8b68-4f80-8730-437519f9eabb"
+    },
+    "target": {
+      "cell": "Community "
+    },
+    "zIndex": 43
+  },
+  {
+    "shape": "edge",
+    "id": "c582aa60-146e-4328-8229-9cef7a496e54",
+    "source": {
+      "cell": "Resource",
+      "port": "24430505-90f0-4375-a56f-11a91c1a8fd7"
+    },
+    "target": {
+      "cell": "Community "
+    },
+    "zIndex": 44
+  },
+  {
+    "shape": "edge",
+    "id": "dd039cf7-71ba-46e5-987d-69a238e5ef3d",
+    "source": {
+      "cell": "Services",
+      "port": "f6dc7d74-0cd8-4da0-aa46-2c3016b3bddc"
+    },
+    "target": {
+      "cell": "Community "
+    },
+    "zIndex": 45
+  },
+  {
+    "shape": "edge",
+    "id": "cb30702e-fb1f-4cfb-ac17-ce2533315c60",
+    "source": {
+      "cell": "Stackholder ",
+      "port": "01405c29-8b68-4f80-8730-437519f9eabb"
+    },
+    "target": {
+      "cell": "Evolutionary event"
+    },
+    "zIndex": 46
+  },
+  {
+    "shape": "edge",
+    "id": "57544cb9-45f0-42e2-a1bd-88cb36891ff9",
+    "source": {
+      "cell": "Services",
+      "port": "f6dc7d74-0cd8-4da0-aa46-2c3016b3bddc"
+    },
+    "target": {
+      "cell": "Evolutionary event"
+    },
+    "zIndex": 47
+  },
+  {
+    "shape": "edge",
+    "id": "661dbff1-1e83-4827-8004-8f00375dd888",
+    "source": {
+      "cell": "Resource",
+      "port": "24430505-90f0-4375-a56f-11a91c1a8fd7"
+    },
+    "target": {
+      "cell": "Evolutionary event"
+    },
+    "zIndex": 48
+  }
+]

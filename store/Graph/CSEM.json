@@ -1,0 +1,1442 @@
+[
+    {
+        "position": {
+            "x": -580,
+            "y": 110
+        },
+        "size": {
+            "width": 160,
+            "height": 120
+        },
+        "attrs": {
+            "name-rect": {
+                "fill": "#E52113",
+                "height": 28,
+                "transform": "translate(0,0)"
+            },
+            "attrs-rect": {
+                "height": 76,
+                "transform": "translate(0,28)"
+            },
+            "methods-rect": {
+                "height": 16,
+                "transform": "translate(0,104)"
+            },
+            "name-text": {
+                "text": "资源"
+            },
+            "attrs-text": {
+                "text": "+ NAME\n+ TYPE\n+ DATETIME\n+ LON\n+ LAT"
+            },
+            "methods-text": {
+                "text": ""
+            }
+        },
+        "visible": true,
+        "shape": "class",
+        "id": "资源",
+        "zIndex": 6,
+        "data": {
+            "id": "资源",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                },
+                {
+                    "name": "TYPE",
+                    "type": "STRING"
+                },
+                {
+                    "name": "DATETIME",
+                    "type": "STRING"
+                },
+                {
+                    "name": "LON",
+                    "type": "INT"
+                },
+                {
+                    "name": "LAT",
+                    "type": "INT"
+                }
+            ]
+        }
+    },
+    {
+        "position": {
+            "x": -230,
+            "y": -20
+        },
+        "size": {
+            "width": 160,
+            "height": 120
+        },
+        "attrs": {
+            "name-rect": {
+                "fill": "#5F95FF",
+                "height": 28,
+                "transform": "translate(0,0)"
+            },
+            "attrs-rect": {
+                "height": 76,
+                "transform": "translate(0,28)"
+            },
+            "methods-rect": {
+                "height": 16,
+                "transform": "translate(0,104)"
+            },
+            "name-text": {
+                "text": "服务"
+            },
+            "attrs-text": {
+                "text": "+ NAME\n+ TYPE\n+ DATETIME\n+ LON\n+ LAT"
+            },
+            "methods-text": {
+                "text": ""
+            }
+        },
+        "visible": true,
+        "shape": "class",
+        "id": "服务",
+        "zIndex": 7,
+        "data": {
+            "id": "服务",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                },
+                {
+                    "name": "TYPE",
+                    "type": "STRING"
+                },
+                {
+                    "name": "DATETIME",
+                    "type": "INT"
+                },
+                {
+                    "name": "LON",
+                    "type": "INT"
+                },
+                {
+                    "name": "LAT",
+                    "type": "INT"
+                }
+            ]
+        },
+        "children": [
+            "服务-服务:合作",
+            "服务-服务:竞争",
+            "服务-服务:属于"
+        ]
+    },
+    {
+        "shape": "edge",
+        "id": "服务-服务:合作",
+        "labels": [
+            {
+                "attrs": {
+                    "label": {
+                        "text": "合作"
+                    }
+                }
+            }
+        ],
+        "zIndex": 8,
+        "parent": "服务",
+        "data": {
+            "id": "服务-服务:合作",
+            "label": "合作",
+            "source": "服务",
+            "target": "服务",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                }
+            ]
+        },
+        "source": {
+            "x": -150,
+            "y": -20
+        },
+        "target": {
+            "x": -70,
+            "y": 0
+        },
+        "vertices": [
+            {
+                "x": -150,
+                "y": -40
+            },
+            {
+                "x": -50,
+                "y": -40
+            },
+            {
+                "x": -50,
+                "y": 0
+            }
+        ]
+    },
+    {
+        "shape": "edge",
+        "id": "服务-服务:竞争",
+        "labels": [
+            {
+                "attrs": {
+                    "label": {
+                        "text": "竞争"
+                    }
+                }
+            }
+        ],
+        "zIndex": 9,
+        "parent": "服务",
+        "data": {
+            "id": "服务-服务:竞争",
+            "label": "竞争",
+            "source": "服务",
+            "target": "服务",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                }
+            ]
+        },
+        "source": {
+            "x": -140,
+            "y": -20
+        },
+        "target": {
+            "x": -70,
+            "y": 0
+        },
+        "vertices": [
+            {
+                "x": -140,
+                "y": -60
+            },
+            {
+                "x": -30,
+                "y": -60
+            },
+            {
+                "x": -30,
+                "y": 0
+            }
+        ]
+    },
+    {
+        "shape": "edge",
+        "id": "服务-资源:占有",
+        "labels": [
+            {
+                "attrs": {
+                    "label": {
+                        "text": "占有"
+                    }
+                }
+            }
+        ],
+        "zIndex": 10,
+        "connector": {
+            "name": "multi-smooth",
+            "args": {
+                "index": 2
+            }
+        },
+        "data": {
+            "id": "服务-资源:占有",
+            "label": "占有",
+            "source": "服务",
+            "target": "资源",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                }
+            ]
+        },
+        "source": {
+            "cell": "服务"
+        },
+        "target": {
+            "cell": "资源"
+        }
+    },
+    {
+        "position": {
+            "x": -580,
+            "y": -160
+        },
+        "size": {
+            "width": 160,
+            "height": 120
+        },
+        "attrs": {
+            "name-rect": {
+                "fill": "#F6DE09",
+                "height": 28,
+                "transform": "translate(0,0)"
+            },
+            "attrs-rect": {
+                "height": 76,
+                "transform": "translate(0,28)"
+            },
+            "methods-rect": {
+                "height": 16,
+                "transform": "translate(0,104)"
+            },
+            "name-text": {
+                "text": "组织"
+            },
+            "attrs-text": {
+                "text": "+ NAME\n+ TYPE\n+ DATETIME\n+ LON\n+ LAT"
+            },
+            "methods-text": {
+                "text": ""
+            }
+        },
+        "visible": true,
+        "shape": "class",
+        "id": "组织",
+        "zIndex": 11,
+        "data": {
+            "id": "组织",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                },
+                {
+                    "name": "TYPE",
+                    "type": "STRING"
+                },
+                {
+                    "name": "DATETIME",
+                    "type": "INT"
+                },
+                {
+                    "name": "LON",
+                    "type": "INT"
+                },
+                {
+                    "name": "LAT",
+                    "type": "INT"
+                }
+            ]
+        },
+        "children": [
+            "组织-组织:合作",
+            "组织-组织:竞争",
+            "组织-组织:属于"
+        ]
+    },
+    {
+        "shape": "edge",
+        "id": "组织-服务:拥有",
+        "labels": [
+            {
+                "attrs": {
+                    "label": {
+                        "text": "拥有"
+                    }
+                }
+            }
+        ],
+        "zIndex": 12,
+        "connector": {
+            "name": "multi-smooth",
+            "args": {
+                "index": 2
+            }
+        },
+        "data": {
+            "id": "组织-服务:拥有",
+            "label": "拥有",
+            "source": "组织",
+            "target": "服务",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                }
+            ]
+        },
+        "source": {
+            "cell": "组织"
+        },
+        "target": {
+            "cell": "服务"
+        }
+    },
+    {
+        "position": {
+            "x": 50,
+            "y": 60
+        },
+        "size": {
+            "width": 160,
+            "height": 96
+        },
+        "attrs": {
+            "name-rect": {
+                "fill": "#5F95FF",
+                "height": 28,
+                "transform": "translate(0,0)"
+            },
+            "attrs-rect": {
+                "height": 52,
+                "transform": "translate(0,28)"
+            },
+            "methods-rect": {
+                "height": 16,
+                "transform": "translate(0,80)"
+            },
+            "name-text": {
+                "text": "流程"
+            },
+            "attrs-text": {
+                "text": "+ NAME\n+ TYPE\n+ DATETIME"
+            },
+            "methods-text": {
+                "text": ""
+            }
+        },
+        "visible": true,
+        "shape": "class",
+        "id": "流程",
+        "zIndex": 13,
+        "data": {
+            "id": "流程",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                },
+                {
+                    "name": "TYPE",
+                    "type": "STRING"
+                },
+                {
+                    "name": "DATETIME",
+                    "type": "STRING"
+                }
+            ]
+        }
+    },
+    {
+        "shape": "edge",
+        "id": "流程-服务:属于",
+        "labels": [
+            {
+                "attrs": {
+                    "label": {
+                        "text": "属于"
+                    }
+                }
+            }
+        ],
+        "zIndex": 14,
+        "connector": {
+            "name": "multi-smooth",
+            "args": {
+                "index": 2
+            }
+        },
+        "data": {
+            "id": "流程-服务:属于",
+            "label": "属于",
+            "source": "流程",
+            "target": "服务",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                }
+            ]
+        },
+        "source": {
+            "cell": "流程"
+        },
+        "target": {
+            "cell": "服务"
+        }
+    },
+    {
+        "position": {
+            "x": 70,
+            "y": -130
+        },
+        "size": {
+            "width": 160,
+            "height": 96
+        },
+        "attrs": {
+            "name-rect": {
+                "fill": "#5F95FF",
+                "height": 28,
+                "transform": "translate(0,0)"
+            },
+            "attrs-rect": {
+                "height": 52,
+                "transform": "translate(0,28)"
+            },
+            "methods-rect": {
+                "height": 16,
+                "transform": "translate(0,80)"
+            },
+            "name-text": {
+                "text": "活动"
+            },
+            "attrs-text": {
+                "text": "+ NAME\n+ TYPE\n+ DATETIME"
+            },
+            "methods-text": {
+                "text": ""
+            }
+        },
+        "visible": true,
+        "shape": "class",
+        "id": "活动",
+        "zIndex": 15,
+        "data": {
+            "id": "活动",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                },
+                {
+                    "name": "TYPE",
+                    "type": "STRING"
+                },
+                {
+                    "name": "DATETIME",
+                    "type": "INT"
+                }
+            ]
+        }
+    },
+    {
+        "shape": "edge",
+        "id": "活动-流程:属于",
+        "labels": [
+            {
+                "attrs": {
+                    "label": {
+                        "text": "属于"
+                    }
+                }
+            }
+        ],
+        "zIndex": 16,
+        "connector": {
+            "name": "multi-smooth",
+            "args": {
+                "index": 2
+            }
+        },
+        "data": {
+            "id": "活动-流程:属于",
+            "label": "属于",
+            "source": "活动",
+            "target": "流程",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                }
+            ]
+        },
+        "source": {
+            "cell": "活动"
+        },
+        "target": {
+            "cell": "流程"
+        }
+    },
+    {
+        "position": {
+            "x": -270,
+            "y": -200
+        },
+        "size": {
+            "width": 160,
+            "height": 84
+        },
+        "attrs": {
+            "name-rect": {
+                "fill": "#E4FF5F",
+                "height": 28,
+                "transform": "translate(0,0)"
+            },
+            "attrs-rect": {
+                "height": 40,
+                "transform": "translate(0,28)"
+            },
+            "methods-rect": {
+                "height": 16,
+                "transform": "translate(0,68)"
+            },
+            "name-text": {
+                "text": "居民"
+            },
+            "attrs-text": {
+                "text": "+ NAME\n+ DATETIME"
+            },
+            "methods-text": {
+                "text": ""
+            }
+        },
+        "visible": true,
+        "shape": "class",
+        "id": "居民",
+        "zIndex": 17,
+        "data": {
+            "id": "居民",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                },
+                {
+                    "name": "DATETIME",
+                    "type": "INT"
+                }
+            ]
+        }
+    },
+    {
+        "shape": "edge",
+        "id": "居民-组织:属于",
+        "labels": [
+            {
+                "attrs": {
+                    "label": {
+                        "text": "属于"
+                    }
+                }
+            }
+        ],
+        "zIndex": 18,
+        "connector": {
+            "name": "multi-smooth",
+            "args": {
+                "index": 2
+            }
+        },
+        "data": {
+            "id": "居民-组织:属于",
+            "label": "属于",
+            "source": "居民",
+            "target": "组织",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                }
+            ]
+        },
+        "source": {
+            "cell": "居民"
+        },
+        "target": {
+            "cell": "组织"
+        }
+    },
+    {
+        "shape": "edge",
+        "id": "服务-资源:使用",
+        "labels": [
+            {
+                "attrs": {
+                    "label": {
+                        "text": "使用"
+                    }
+                }
+            }
+        ],
+        "zIndex": 20,
+        "connector": {
+            "name": "multi-smooth",
+            "args": {
+                "index": 1
+            }
+        },
+        "data": {
+            "id": "服务-资源:使用",
+            "label": "使用",
+            "source": "服务",
+            "target": "资源",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                }
+            ]
+        },
+        "source": {
+            "cell": "服务"
+        },
+        "target": {
+            "cell": "资源"
+        },
+        "tools": {
+            "items": [
+                "vertices"
+            ],
+            "name": null
+        }
+    },
+    {
+        "position": {
+            "x": -220,
+            "y": 150
+        },
+        "size": {
+            "width": 160,
+            "height": 84
+        },
+        "attrs": {
+            "name-rect": {
+                "fill": "#35EB2B",
+                "height": 28,
+                "transform": "translate(0,0)"
+            },
+            "attrs-rect": {
+                "height": 40,
+                "transform": "translate(0,28)"
+            },
+            "methods-rect": {
+                "height": 16,
+                "transform": "translate(0,68)"
+            },
+            "name-text": {
+                "text": "价值"
+            },
+            "attrs-text": {
+                "text": "+ NAME\n+ VALUE"
+            },
+            "methods-text": {
+                "text": ""
+            }
+        },
+        "visible": true,
+        "shape": "class",
+        "id": "价值",
+        "zIndex": 21,
+        "data": {
+            "id": "价值",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                },
+                {
+                    "name": "VALUE",
+                    "type": "INT"
+                }
+            ]
+        }
+    },
+    {
+        "shape": "edge",
+        "id": "服务-价值:产生",
+        "labels": [
+            {
+                "attrs": {
+                    "label": {
+                        "text": "产生"
+                    }
+                }
+            }
+        ],
+        "zIndex": 22,
+        "connector": {
+            "name": "multi-smooth",
+            "args": {
+                "index": 2
+            }
+        },
+        "data": {
+            "id": "服务-价值:产生",
+            "label": "产生",
+            "source": "服务",
+            "target": "价值",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                }
+            ]
+        },
+        "source": {
+            "cell": "服务"
+        },
+        "target": {
+            "cell": "价值"
+        }
+    },
+    {
+        "position": {
+            "x": -420,
+            "y": 260
+        },
+        "size": {
+            "width": 160,
+            "height": 72
+        },
+        "attrs": {
+            "name-rect": {
+                "fill": "#77FF5F",
+                "height": 28,
+                "transform": "translate(0,0)"
+            },
+            "attrs-rect": {
+                "height": 28,
+                "transform": "translate(0,28)"
+            },
+            "methods-rect": {
+                "height": 16,
+                "transform": "translate(0,56)"
+            },
+            "name-text": {
+                "text": "价值链"
+            },
+            "attrs-text": {
+                "text": "+ NAME"
+            },
+            "methods-text": {
+                "text": ""
+            }
+        },
+        "visible": true,
+        "shape": "class",
+        "id": "价值链",
+        "zIndex": 23,
+        "data": {
+            "id": "价值链",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                }
+            ]
+        }
+    },
+    {
+        "shape": "edge",
+        "id": "价值-价值链:属于",
+        "labels": [
+            {
+                "attrs": {
+                    "label": {
+                        "text": "属于"
+                    }
+                }
+            }
+        ],
+        "zIndex": 24,
+        "connector": {
+            "name": "multi-smooth",
+            "args": {
+                "index": 2
+            }
+        },
+        "data": {
+            "id": "价值-价值链:属于",
+            "label": "属于",
+            "source": "价值",
+            "target": "价值链",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                }
+            ]
+        },
+        "source": {
+            "cell": "价值"
+        },
+        "target": {
+            "cell": "价值链"
+        }
+    },
+    {
+        "shape": "edge",
+        "id": "居民-服务:消费",
+        "labels": [
+            {
+                "attrs": {
+                    "label": {
+                        "text": "消费"
+                    }
+                }
+            }
+        ],
+        "zIndex": 25,
+        "connector": {
+            "name": "multi-smooth",
+            "args": {
+                "index": 2
+            }
+        },
+        "data": {
+            "id": "居民-服务:消费",
+            "label": "消费",
+            "source": "居民",
+            "target": "服务",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                }
+            ]
+        },
+        "source": {
+            "cell": "居民"
+        },
+        "target": {
+            "cell": "服务"
+        }
+    },
+    {
+        "shape": "edge",
+        "id": "服务-服务:属于",
+        "labels": [
+            {
+                "attrs": {
+                    "label": {
+                        "text": "属于"
+                    }
+                }
+            }
+        ],
+        "zIndex": 26,
+        "parent": "服务",
+        "data": {
+            "id": "服务-服务:属于",
+            "label": "属于",
+            "source": "服务",
+            "target": "服务",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                }
+            ]
+        },
+        "source": {
+            "x": -130,
+            "y": -20
+        },
+        "target": {
+            "x": -70,
+            "y": 0
+        },
+        "vertices": [
+            {
+                "x": -130,
+                "y": -80
+            },
+            {
+                "x": -10,
+                "y": -80
+            },
+            {
+                "x": -10,
+                "y": 0
+            }
+        ]
+    },
+    {
+        "shape": "edge",
+        "id": "组织-组织:合作",
+        "labels": [
+            {
+                "attrs": {
+                    "label": {
+                        "text": "合作"
+                    }
+                }
+            }
+        ],
+        "zIndex": 27,
+        "parent": "组织",
+        "data": {
+            "id": "组织-组织:合作",
+            "label": "合作",
+            "source": "组织",
+            "target": "组织",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                }
+            ]
+        },
+        "source": {
+            "x": -500,
+            "y": -160
+        },
+        "target": {
+            "x": -420,
+            "y": -140
+        },
+        "vertices": [
+            {
+                "x": -500,
+                "y": -180
+            },
+            {
+                "x": -400,
+                "y": -180
+            },
+            {
+                "x": -400,
+                "y": -140
+            }
+        ]
+    },
+    {
+        "shape": "edge",
+        "id": "组织-组织:竞争",
+        "labels": [
+            {
+                "attrs": {
+                    "label": {
+                        "text": "竞争"
+                    }
+                }
+            }
+        ],
+        "zIndex": 28,
+        "parent": "组织",
+        "data": {
+            "id": "组织-组织:竞争",
+            "label": "竞争",
+            "source": "组织",
+            "target": "组织",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                }
+            ]
+        },
+        "source": {
+            "x": -490,
+            "y": -160
+        },
+        "target": {
+            "x": -420,
+            "y": -140
+        },
+        "vertices": [
+            {
+                "x": -490,
+                "y": -200
+            },
+            {
+                "x": -380,
+                "y": -200
+            },
+            {
+                "x": -380,
+                "y": -140
+            }
+        ]
+    },
+    {
+        "shape": "edge",
+        "id": "组织-组织:属于",
+        "labels": [
+            {
+                "attrs": {
+                    "label": {
+                        "text": "属于"
+                    }
+                }
+            }
+        ],
+        "zIndex": 29,
+        "parent": "组织",
+        "data": {
+            "id": "组织-组织:属于",
+            "label": "属于",
+            "source": "组织",
+            "target": "组织",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                }
+            ]
+        },
+        "source": {
+            "x": -480,
+            "y": -160
+        },
+        "target": {
+            "x": -420,
+            "y": -140
+        },
+        "vertices": [
+            {
+                "x": -480,
+                "y": -220
+            },
+            {
+                "x": -360,
+                "y": -220
+            },
+            {
+                "x": -360,
+                "y": -140
+            }
+        ]
+    },
+    {
+        "position": {
+            "x": 70,
+            "y": -250
+        },
+        "size": {
+            "width": 160,
+            "height": 96
+        },
+        "attrs": {
+            "name-rect": {
+                "fill": "#EFFF5F",
+                "height": 28,
+                "transform": "translate(0,0)"
+            },
+            "attrs-rect": {
+                "height": 52,
+                "transform": "translate(0,28)"
+            },
+            "methods-rect": {
+                "height": 16,
+                "transform": "translate(0,80)"
+            },
+            "name-text": {
+                "text": "家庭"
+            },
+            "attrs-text": {
+                "text": "+ NAME\n+ HHSIZE\n+ INCOME"
+            },
+            "methods-text": {
+                "text": ""
+            }
+        },
+        "visible": true,
+        "shape": "class",
+        "id": "家庭",
+        "zIndex": 30,
+        "data": {
+            "id": "家庭",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                },
+                {
+                    "name": "HHSIZE",
+                    "type": "INT"
+                },
+                {
+                    "name": "INCOME",
+                    "type": "INT"
+                }
+            ]
+        }
+    },
+    {
+        "shape": "edge",
+        "id": "居民-家庭:属于",
+        "labels": [
+            {
+                "attrs": {
+                    "label": {
+                        "text": "属于"
+                    }
+                }
+            }
+        ],
+        "zIndex": 31,
+        "connector": {
+            "name": "multi-smooth",
+            "args": {
+                "index": 2
+            }
+        },
+        "data": {
+            "id": "居民-家庭:属于",
+            "label": "属于",
+            "source": "居民",
+            "target": "家庭",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                }
+            ]
+        },
+        "source": {
+            "cell": "居民"
+        },
+        "target": {
+            "cell": "家庭"
+        }
+    },
+    {
+        "shape": "edge",
+        "id": "组织-服务:提供",
+        "labels": [
+            {
+                "attrs": {
+                    "label": {
+                        "text": "提供"
+                    }
+                }
+            }
+        ],
+        "zIndex": 32,
+        "connector": {
+            "name": "multi-smooth",
+            "args": {
+                "index": 1
+            }
+        },
+        "data": {
+            "id": "组织-服务:提供",
+            "label": "提供",
+            "source": "组织",
+            "target": "服务",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                }
+            ]
+        },
+        "source": {
+            "cell": "组织"
+        },
+        "target": {
+            "cell": "服务"
+        },
+        "tools": {
+            "items": [
+                "vertices"
+            ],
+            "name": null
+        }
+    },
+    {
+        "shape": "edge",
+        "id": "组织-资源:使用",
+        "labels": [
+            {
+                "attrs": {
+                    "label": {
+                        "text": "使用"
+                    }
+                }
+            }
+        ],
+        "zIndex": 33,
+        "connector": {
+            "name": "multi-smooth",
+            "args": {
+                "index": 2
+            }
+        },
+        "data": {
+            "id": "组织-资源:使用",
+            "label": "使用",
+            "source": "组织",
+            "target": "资源",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                }
+            ]
+        },
+        "source": {
+            "cell": "组织"
+        },
+        "target": {
+            "cell": "资源"
+        }
+    },
+    {
+        "shape": "edge",
+        "id": "居民-活动:参与",
+        "labels": [
+            {
+                "attrs": {
+                    "label": {
+                        "text": "参与"
+                    }
+                }
+            }
+        ],
+        "zIndex": 34,
+        "connector": {
+            "name": "multi-smooth",
+            "args": {
+                "index": 2
+            }
+        },
+        "data": {
+            "id": "居民-活动:参与",
+            "label": "参与",
+            "source": "居民",
+            "target": "活动",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                }
+            ]
+        },
+        "source": {
+            "cell": "居民"
+        },
+        "target": {
+            "cell": "活动"
+        }
+    },
+    {
+        "position": {
+            "x": -50,
+            "y": 260
+        },
+        "size": {
+            "width": 160,
+            "height": 84
+        },
+        "attrs": {
+            "name-rect": {
+                "fill": "#5FFF6C",
+                "height": 28,
+                "transform": "translate(0,0)"
+            },
+            "attrs-rect": {
+                "height": 40,
+                "transform": "translate(0,28)"
+            },
+            "methods-rect": {
+                "height": 16,
+                "transform": "translate(0,68)"
+            },
+            "name-text": {
+                "text": "价值交换关系"
+            },
+            "attrs-text": {
+                "text": "+ NAME\n+ "
+            },
+            "methods-text": {
+                "text": ""
+            }
+        },
+        "visible": true,
+        "shape": "class",
+        "id": "价值交换关系",
+        "zIndex": 35,
+        "data": {
+            "id": "价值交换关系",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                },
+                {
+                    "name": "",
+                    "type": ""
+                }
+            ]
+        }
+    },
+    {
+        "shape": "edge",
+        "id": "价值-价值交换关系:属于",
+        "labels": [
+            {
+                "attrs": {
+                    "label": {
+                        "text": "属于"
+                    }
+                }
+            }
+        ],
+        "zIndex": 36,
+        "connector": {
+            "name": "multi-smooth",
+            "args": {
+                "index": 2
+            }
+        },
+        "data": {
+            "id": "价值-价值交换关系:属于",
+            "label": "属于",
+            "source": "价值",
+            "target": "价值交换关系",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                }
+            ]
+        },
+        "source": {
+            "cell": "价值"
+        },
+        "target": {
+            "cell": "价值交换关系"
+        }
+    },
+    {
+        "shape": "edge",
+        "id": "价值交换关系-价值链:属于",
+        "labels": [
+            {
+                "attrs": {
+                    "label": {
+                        "text": "属于"
+                    }
+                }
+            }
+        ],
+        "zIndex": 37,
+        "connector": {
+            "name": "multi-smooth",
+            "args": {
+                "index": 2
+            }
+        },
+        "data": {
+            "id": "价值交换关系-价值链:属于",
+            "label": "属于",
+            "source": "价值交换关系",
+            "target": "价值链",
+            "props": [
+                {
+                    "name": "NAME",
+                    "type": "STRING"
+                }
+            ]
+        },
+        "source": {
+            "cell": "价值交换关系"
+        },
+        "target": {
+            "cell": "价值链"
+        }
+    }
+]

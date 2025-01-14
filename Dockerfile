@@ -7,10 +7,11 @@ WORKDIR /app
 # 将当前目录下的所有文件复制到工作目录下
 COPY . /app
 
-RUN pip install --upgrade pip -i https://pypi.tuna.tsinghua.edu.cn/simple
+# RUN pip install --upgrade pip -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 # 安装依赖，这里假设你的依赖在requirements.txt文件中
-RUN pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+# RUN pip install -r requirements.txt --ignore-installed -i https://pypi.tuna.tsinghua.edu.cn/simple
+RUN pip install -r requirements.txt --ignore-installed -i https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple/
 
 # 设置环境变量，如果需要的话
 # ENV NAME World

@@ -1,0 +1,203 @@
+{
+    "version": 0,
+    "graphName": "Test",
+    "nodes": [
+        [
+            {
+                "name": "ID",
+                "type": "STRING"
+            },
+            {
+                "name": "NAME",
+                "type": "STRING"
+            }
+        ],
+        [
+            {
+                "name": "ID",
+                "type": "STRING"
+            },
+            {
+                "name": "NAME",
+                "type": "STRING"
+            }
+        ],
+        [
+            {
+                "name": "ID",
+                "type": "STRING"
+            },
+            {
+                "name": "NAME",
+                "type": "STRING"
+            }
+        ],
+        [
+            {
+                "name": "ID",
+                "type": "STRING"
+            },
+            {
+                "name": "NAME",
+                "type": "STRING"
+            }
+        ],
+        [
+            {
+                "name": "ID",
+                "type": "STRING"
+            },
+            {
+                "name": "NAME",
+                "type": "STRING"
+            }
+        ],
+        [
+            {
+                "name": "ID",
+                "type": "STRING"
+            },
+            {
+                "name": "NAME",
+                "type": "STRING"
+            }
+        ],
+        [
+            {
+                "name": "ID",
+                "type": "STRING"
+            },
+            {
+                "name": "NAME",
+                "type": "STRING"
+            }
+        ],
+        {
+            "id": "",
+            "label": "",
+            "shape": "association",
+            "source": "服务",
+            "target": "社区",
+            "props": []
+        },
+        {
+            "id": "",
+            "label": "",
+            "shape": "association",
+            "source": "资源",
+            "target": "社区",
+            "props": []
+        },
+        {
+            "id": "",
+            "label": "",
+            "shape": "association",
+            "source": "利益相关者",
+            "target": "社区",
+            "props": []
+        },
+        {
+            "id": "",
+            "label": "",
+            "shape": "association",
+            "source": "家庭",
+            "target": "利益相关者",
+            "props": []
+        },
+        {
+            "id": "",
+            "label": "",
+            "shape": "association",
+            "source": "组织",
+            "target": "利益相关者",
+            "props": []
+        },
+        {
+            "id": "",
+            "label": "",
+            "shape": "association",
+            "source": "居民",
+            "target": "利益相关者",
+            "props": []
+        },
+        {
+            "id": "",
+            "label": "",
+            "shape": "association",
+            "source": "居民",
+            "target": "家庭",
+            "props": []
+        },
+        {
+            "id": "",
+            "label": "",
+            "shape": "association",
+            "source": "服务",
+            "target": "利益相关者",
+            "props": []
+        },
+        {
+            "id": "",
+            "label": "",
+            "shape": "association",
+            "source": "服务",
+            "target": "资源",
+            "props": []
+        },
+        [
+            {
+                "name": "ID",
+                "type": "STRING"
+            },
+            {
+                "name": "NAME",
+                "type": "STRING"
+            }
+        ],
+        {
+            "id": "",
+            "label": "",
+            "shape": "association",
+            "source": "流程",
+            "target": "服务",
+            "props": []
+        },
+        [
+            {
+                "name": "ID",
+                "type": "STRING"
+            },
+            {
+                "name": "NAME",
+                "type": "STRING"
+            }
+        ],
+        {
+            "id": "",
+            "label": "",
+            "shape": "association",
+            "source": "活动",
+            "target": "流程",
+            "props": []
+        },
+        [
+            {
+                "name": "ID",
+                "type": "STRING"
+            },
+            {
+                "name": "NAME",
+                "type": "STRING"
+            }
+        ],
+        {
+            "id": "",
+            "label": "",
+            "shape": "association",
+            "source": "基础设施",
+            "target": "资源",
+            "props": []
+        }
+    ],
+    "edges": []
+}

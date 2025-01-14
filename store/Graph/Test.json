@@ -1,0 +1,722 @@
+[
+    {
+        "position": {
+            "x": 590,
+            "y": 160
+        },
+        "size": {
+            "width": 160,
+            "height": 84
+        },
+        "attrs": {
+            "name-rect": {
+                "fill": "#5F95FF",
+                "height": 28,
+                "transform": "translate(0,0)"
+            },
+            "attrs-rect": {
+                "height": 40,
+                "transform": "translate(0,28)"
+            },
+            "methods-rect": {
+                "height": 16,
+                "transform": "translate(0,68)"
+            },
+            "name-text": {
+                "text": "社区"
+            },
+            "attrs-text": {
+                "text": "+ ID\n+ NAME"
+            },
+            "methods-text": {
+                "text": ""
+            }
+        },
+        "visible": true,
+        "shape": "class",
+        "id": "社区",
+        "data": [
+            {
+                "name": "ID",
+                "type": "STRING"
+            },
+            {
+                "name": "NAME",
+                "type": "STRING"
+            }
+        ],
+        "zIndex": 1
+    },
+    {
+        "position": {
+            "x": 320,
+            "y": 310
+        },
+        "size": {
+            "width": 160,
+            "height": 84
+        },
+        "attrs": {
+            "name-rect": {
+                "fill": "#5F95FF",
+                "height": 28,
+                "transform": "translate(0,0)"
+            },
+            "attrs-rect": {
+                "height": 40,
+                "transform": "translate(0,28)"
+            },
+            "methods-rect": {
+                "height": 16,
+                "transform": "translate(0,68)"
+            },
+            "name-text": {
+                "text": "利益相关者"
+            },
+            "attrs-text": {
+                "text": "+ ID\n+ NAME"
+            },
+            "methods-text": {
+                "text": ""
+            }
+        },
+        "visible": true,
+        "shape": "class",
+        "id": "利益相关者",
+        "data": [
+            {
+                "name": "ID",
+                "type": "STRING"
+            },
+            {
+                "name": "NAME",
+                "type": "STRING"
+            }
+        ],
+        "zIndex": 2
+    },
+    {
+        "position": {
+            "x": 590,
+            "y": 310
+        },
+        "size": {
+            "width": 160,
+            "height": 84
+        },
+        "attrs": {
+            "name-rect": {
+                "fill": "#62FF5F",
+                "height": 28,
+                "transform": "translate(0,0)"
+            },
+            "attrs-rect": {
+                "height": 40,
+                "transform": "translate(0,28)"
+            },
+            "methods-rect": {
+                "height": 16,
+                "transform": "translate(0,68)"
+            },
+            "name-text": {
+                "text": "服务"
+            },
+            "attrs-text": {
+                "text": "+ ID\n+ NAME"
+            },
+            "methods-text": {
+                "text": ""
+            }
+        },
+        "visible": true,
+        "shape": "class",
+        "id": "服务",
+        "data": [
+            {
+                "name": "ID",
+                "type": "STRING"
+            },
+            {
+                "name": "NAME",
+                "type": "STRING"
+            }
+        ],
+        "zIndex": 3
+    },
+    {
+        "position": {
+            "x": 840,
+            "y": 310
+        },
+        "size": {
+            "width": 160,
+            "height": 84
+        },
+        "attrs": {
+            "name-rect": {
+                "fill": "#FF5F5F",
+                "height": 28,
+                "transform": "translate(0,0)"
+            },
+            "attrs-rect": {
+                "height": 40,
+                "transform": "translate(0,28)"
+            },
+            "methods-rect": {
+                "height": 16,
+                "transform": "translate(0,68)"
+            },
+            "name-text": {
+                "text": "资源"
+            },
+            "attrs-text": {
+                "text": "+ ID\n+ NAME"
+            },
+            "methods-text": {
+                "text": ""
+            }
+        },
+        "visible": true,
+        "shape": "class",
+        "id": "资源",
+        "data": [
+            {
+                "name": "ID",
+                "type": "STRING"
+            },
+            {
+                "name": "NAME",
+                "type": "STRING"
+            }
+        ],
+        "zIndex": 4
+    },
+    {
+        "position": {
+            "x": 550,
+            "y": 550
+        },
+        "size": {
+            "width": 160,
+            "height": 84
+        },
+        "attrs": {
+            "name-rect": {
+                "fill": "#5F95FF",
+                "height": 28,
+                "transform": "translate(0,0)"
+            },
+            "attrs-rect": {
+                "height": 40,
+                "transform": "translate(0,28)"
+            },
+            "methods-rect": {
+                "height": 16,
+                "transform": "translate(0,68)"
+            },
+            "name-text": {
+                "text": "组织"
+            },
+            "attrs-text": {
+                "text": "+ ID\n+ NAME"
+            },
+            "methods-text": {
+                "text": ""
+            }
+        },
+        "visible": true,
+        "shape": "class",
+        "id": "组织",
+        "data": [
+            {
+                "name": "ID",
+                "type": "STRING"
+            },
+            {
+                "name": "NAME",
+                "type": "STRING"
+            }
+        ],
+        "zIndex": 8
+    },
+    {
+        "position": {
+            "x": 80,
+            "y": 550
+        },
+        "size": {
+            "width": 160,
+            "height": 84
+        },
+        "attrs": {
+            "name-rect": {
+                "fill": "#5F95FF",
+                "height": 28,
+                "transform": "translate(0,0)"
+            },
+            "attrs-rect": {
+                "height": 40,
+                "transform": "translate(0,28)"
+            },
+            "methods-rect": {
+                "height": 16,
+                "transform": "translate(0,68)"
+            },
+            "name-text": {
+                "text": "居民"
+            },
+            "attrs-text": {
+                "text": "+ ID\n+ NAME"
+            },
+            "methods-text": {
+                "text": ""
+            }
+        },
+        "visible": true,
+        "shape": "class",
+        "id": "居民",
+        "data": [
+            {
+                "name": "ID",
+                "type": "STRING"
+            },
+            {
+                "name": "NAME",
+                "type": "STRING"
+            }
+        ],
+        "zIndex": 9
+    },
+    {
+        "position": {
+            "x": 320,
+            "y": 550
+        },
+        "size": {
+            "width": 160,
+            "height": 84
+        },
+        "attrs": {
+            "name-rect": {
+                "fill": "#5F95FF",
+                "height": 28,
+                "transform": "translate(0,0)"
+            },
+            "attrs-rect": {
+                "height": 40,
+                "transform": "translate(0,28)"
+            },
+            "methods-rect": {
+                "height": 16,
+                "transform": "translate(0,68)"
+            },
+            "name-text": {
+                "text": "家庭"
+            },
+            "attrs-text": {
+                "text": "+ ID\n+ NAME"
+            },
+            "methods-text": {
+                "text": ""
+            }
+        },
+        "visible": true,
+        "shape": "class",
+        "id": "家庭",
+        "data": [
+            {
+                "name": "ID",
+                "type": "STRING"
+            },
+            {
+                "name": "NAME",
+                "type": "STRING"
+            }
+        ],
+        "zIndex": 10
+    },
+    {
+        "shape": "association",
+        "id": "",
+        "props": [],
+        "zIndex": 11,
+        "data": {
+            "id": "",
+            "label": "",
+            "shape": "association",
+            "source": "服务",
+            "target": "社区",
+            "props": []
+        },
+        "source": {
+            "cell": "服务"
+        },
+        "target": {
+            "cell": "社区"
+        }
+    },
+    {
+        "shape": "association",
+        "id": "",
+        "props": [],
+        "zIndex": 12,
+        "data": {
+            "id": "",
+            "label": "",
+            "shape": "association",
+            "source": "资源",
+            "target": "社区",
+            "props": []
+        },
+        "source": {
+            "cell": "资源"
+        },
+        "target": {
+            "cell": "社区"
+        }
+    },
+    {
+        "shape": "association",
+        "id": "",
+        "props": [],
+        "zIndex": 13,
+        "data": {
+            "id": "",
+            "label": "",
+            "shape": "association",
+            "source": "利益相关者",
+            "target": "社区",
+            "props": []
+        },
+        "source": {
+            "cell": "利益相关者"
+        },
+        "target": {
+            "cell": "社区"
+        }
+    },
+    {
+        "shape": "association",
+        "id": "",
+        "props": [],
+        "zIndex": 14,
+        "data": {
+            "id": "",
+            "label": "",
+            "shape": "association",
+            "source": "家庭",
+            "target": "利益相关者",
+            "props": []
+        },
+        "source": {
+            "cell": "家庭"
+        },
+        "target": {
+            "cell": "利益相关者"
+        }
+    },
+    {
+        "shape": "association",
+        "id": "",
+        "props": [],
+        "zIndex": 15,
+        "data": {
+            "id": "",
+            "label": "",
+            "shape": "association",
+            "source": "组织",
+            "target": "利益相关者",
+            "props": []
+        },
+        "source": {
+            "cell": "组织"
+        },
+        "target": {
+            "cell": "利益相关者"
+        }
+    },
+    {
+        "shape": "association",
+        "id": "",
+        "props": [],
+        "zIndex": 16,
+        "data": {
+            "id": "",
+            "label": "",
+            "shape": "association",
+            "source": "居民",
+            "target": "利益相关者",
+            "props": []
+        },
+        "source": {
+            "cell": "居民"
+        },
+        "target": {
+            "cell": "利益相关者"
+        }
+    },
+    {
+        "shape": "association",
+        "id": "",
+        "props": [],
+        "zIndex": 17,
+        "data": {
+            "id": "",
+            "label": "",
+            "shape": "association",
+            "source": "居民",
+            "target": "家庭",
+            "props": []
+        },
+        "source": {
+            "cell": "居民"
+        },
+        "target": {
+            "cell": "家庭"
+        }
+    },
+    {
+        "shape": "association",
+        "id": "",
+        "props": [],
+        "zIndex": 18,
+        "data": {
+            "id": "",
+            "label": "",
+            "shape": "association",
+            "source": "服务",
+            "target": "利益相关者",
+            "props": []
+        },
+        "source": {
+            "cell": "服务"
+        },
+        "target": {
+            "cell": "利益相关者"
+        }
+    },
+    {
+        "shape": "association",
+        "id": "",
+        "props": [],
+        "zIndex": 19,
+        "data": {
+            "id": "",
+            "label": "",
+            "shape": "association",
+            "source": "服务",
+            "target": "资源",
+            "props": []
+        },
+        "source": {
+            "cell": "服务"
+        },
+        "target": {
+            "cell": "资源"
+        }
+    },
+    {
+        "position": {
+            "x": 680,
+            "y": 430
+        },
+        "size": {
+            "width": 160,
+            "height": 84
+        },
+        "attrs": {
+            "name-rect": {
+                "fill": "#A2FF00",
+                "height": 28,
+                "transform": "translate(0,0)"
+            },
+            "attrs-rect": {
+                "height": 40,
+                "transform": "translate(0,28)"
+            },
+            "methods-rect": {
+                "height": 16,
+                "transform": "translate(0,68)"
+            },
+            "name-text": {
+                "text": "流程"
+            },
+            "attrs-text": {
+                "text": "+ ID\n+ NAME"
+            },
+            "methods-text": {
+                "text": ""
+            }
+        },
+        "visible": true,
+        "shape": "class",
+        "id": "流程",
+        "data": [
+            {
+                "name": "ID",
+                "type": "STRING"
+            },
+            {
+                "name": "NAME",
+                "type": "STRING"
+            }
+        ],
+        "zIndex": 20
+    },
+    {
+        "shape": "association",
+        "id": "",
+        "props": [],
+        "zIndex": 21,
+        "data": {
+            "id": "",
+            "label": "",
+            "shape": "association",
+            "source": "流程",
+            "target": "服务",
+            "props": []
+        },
+        "source": {
+            "cell": "流程"
+        },
+        "target": {
+            "cell": "服务"
+        }
+    },
+    {
+        "position": {
+            "x": 770,
+            "y": 550
+        },
+        "size": {
+            "width": 160,
+            "height": 84
+        },
+        "attrs": {
+            "name-rect": {
+                "fill": "#80FC03",
+                "height": 28,
+                "transform": "translate(0,0)"
+            },
+            "attrs-rect": {
+                "height": 40,
+                "transform": "translate(0,28)"
+            },
+            "methods-rect": {
+                "height": 16,
+                "transform": "translate(0,68)"
+            },
+            "name-text": {
+                "text": "活动"
+            },
+            "attrs-text": {
+                "text": "+ ID\n+ NAME"
+            },
+            "methods-text": {
+                "text": ""
+            }
+        },
+        "visible": true,
+        "shape": "class",
+        "id": "活动",
+        "data": [
+            {
+                "name": "ID",
+                "type": "STRING"
+            },
+            {
+                "name": "NAME",
+                "type": "STRING"
+            }
+        ],
+        "zIndex": 22
+    },
+    {
+        "shape": "association",
+        "id": "",
+        "props": [],
+        "zIndex": 23,
+        "data": {
+            "id": "",
+            "label": "",
+            "shape": "association",
+            "source": "活动",
+            "target": "流程",
+            "props": []
+        },
+        "source": {
+            "cell": "活动"
+        },
+        "target": {
+            "cell": "流程"
+        }
+    },
+    {
+        "position": {
+            "x": 1070,
+            "y": 310
+        },
+        "size": {
+            "width": 160,
+            "height": 84
+        },
+        "attrs": {
+            "name-rect": {
+                "fill": "#FF775F",
+                "height": 28,
+                "transform": "translate(0,0)"
+            },
+            "attrs-rect": {
+                "height": 40,
+                "transform": "translate(0,28)"
+            },
+            "methods-rect": {
+                "height": 16,
+                "transform": "translate(0,68)"
+            },
+            "name-text": {
+                "text": "基础设施"
+            },
+            "attrs-text": {
+                "text": "+ ID\n+ NAME"
+            },
+            "methods-text": {
+                "text": ""
+            }
+        },
+        "visible": true,
+        "shape": "class",
+        "id": "基础设施",
+        "data": [
+            {
+                "name": "ID",
+                "type": "STRING"
+            },
+            {
+                "name": "NAME",
+                "type": "STRING"
+            }
+        ],
+        "zIndex": 24
+    },
+    {
+        "shape": "association",
+        "id": "",
+        "props": [],
+        "zIndex": 25,
+        "data": {
+            "id": "",
+            "label": "",
+            "shape": "association",
+            "source": "基础设施",
+            "target": "资源",
+            "props": []
+        },
+        "source": {
+            "cell": "基础设施"
+        },
+        "target": {
+            "cell": "资源"
+        }
+    }
+]
